@@ -1,0 +1,15 @@
+/node_modules
+*.log
+/build
+/coverage
+/.pnp
+.pnp.js
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/temp
+tmp/*
+!tmp/.gitkeep
+.vscode/
