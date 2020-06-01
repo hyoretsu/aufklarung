@@ -22,14 +22,10 @@
   "ecmaVersion": 2018,
   "sourceType": "module"
  },
- "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
  "rules": {
-  "@typescript-eslint/explicit-function-return-type": [
-   "error",
-   {
-    "allowExpressions": true
-   }
-  ],
+  "plugins": ["react", "react-hooks", "prettier", "@typescript-eslint"],
+  "@typescript-eslint/camelcase": "off",
+  "@typescript-eslint/explicit-function-return-type": ["error", { "allowExpressions": true }],
   "import/extensions": [
    "error",
    "ignorePackages",
