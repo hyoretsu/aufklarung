@@ -58,6 +58,8 @@ const Header: React.FC = () => {
    <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
    <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
    <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
   </Container>
  );
 };

@@ -20,7 +20,7 @@ export default createGlobalStyle`
  #root {
   background: #f5f5f5;
   box-shadow:${transparentize(0.5, '#000')} 0 0 10px;
-  margin: 2vw max(7px, 7vw);
+  margin: 2vw 7vw;
  }
 
  button {

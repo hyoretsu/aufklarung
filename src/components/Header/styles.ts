@@ -21,4 +21,16 @@ export const Container = styled.header`
    }
   }
  }
+
+ a {
+  cursor: default;
+
+  img {
+   height: 7.7vw;
+   display: block;
+   padding-top: 0.5vw;
+   margin: 0 auto;
+   cursor: pointer;
+  }
+ }
 `;
