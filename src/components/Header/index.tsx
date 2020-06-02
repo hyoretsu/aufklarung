@@ -10,7 +10,7 @@ const Header: React.FC = () => {
  return (
   <Container>
    <div>
-    <span>Acesso</span>
+    <Link to="/login">Acesso</Link>
    </div>
    <Link to="/">
     <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
@@ -50,6 +50,14 @@ const Header: React.FC = () => {
     <FiSearch />
     Buscar
    </button>
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
   </Container>
  );
 };
