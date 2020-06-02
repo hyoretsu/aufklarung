@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { transparentize } from 'polished';
 
 export default createGlobalStyle`
  * {
@@ -17,11 +18,16 @@ export default createGlobalStyle`
  }
 
  #root {
-  margin: 0 auto;
-  padding: 40px 20px;
+  background: #f5f5f5;
+  box-shadow:${transparentize(0.5, '#000')} 0 0 10px;
+  margin: 2vw max(7px, 7vw);
  }
 
  button {
   cursor: pointer;
+ }
+
+ a {
+  text-decoration:none;
  }
 `;
