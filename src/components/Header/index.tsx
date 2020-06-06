@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiChevronDown, FiSearch } from 'react-icons/fi';
+import { FiChevronDown } from 'react-icons/fi';
+import { FaSearch } from 'react-icons/fa';
 
 import logoImg from '../../assets/logo.png';
 
-import { Container } from './styles';
+import { Container, Navigation } from './styles';
 
 const Header: React.FC = () => {
  return (
@@ -15,7 +16,7 @@ const Header: React.FC = () => {
    <Link to="/">
     <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
    </Link>
-   <nav>
+   <Navigation>
     <Link to="/">Início</Link>
     <Link to="/current">Atual</Link>
     <Link to="/archives">Arquivos</Link>
@@ -45,21 +46,11 @@ const Header: React.FC = () => {
      </ul>
     </label>
     <Link to="/info">Informações</Link>
-   </nav>
-   <button>
-    <FiSearch />
-    Buscar
-   </button>
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
-   <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+    <button>
+     <FaSearch />
+     Buscar
+    </button>
+   </Navigation>
   </Container>
  );
 };
