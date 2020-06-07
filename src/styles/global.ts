@@ -19,7 +19,7 @@ export default createGlobalStyle`
  }
 
  #root {
-  box-shadow:${transparentize(0.5, '#000')} 0 0 10px;
+  box-shadow: 0 0 10px ${transparentize(0.5, '#000')};
   margin: 2vw 7vw;
  }
 
