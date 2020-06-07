@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiChevronDown } from 'react-icons/fi';
+import { AiFillCaretDown } from 'react-icons/ai';
 import { FaSearch } from 'react-icons/fa';
 
 import logoImg from '../../assets/logo.png';
 
-import { Container, Navigation } from './styles';
+import { Container, UserNav, Navigation, Dropdown, Search } from './styles';
 
 const Header: React.FC = () => {
  return (
   <Container>
-   <div>
+   <UserNav>
     <Link to="/login">Acesso</Link>
-   </div>
+   </UserNav>
    <Link to="/">
     <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
    </Link>
@@ -21,9 +21,9 @@ const Header: React.FC = () => {
     <Link to="/current">Atual</Link>
     <Link to="/archives">Arquivos</Link>
     <Link to="/news">Notícias</Link>
-    <label>
+    <Dropdown>
      Sobre
-     <FiChevronDown />
+     <AiFillCaretDown />
      <ul>
       <li>
        <Link to="/about">Sobre a revista</Link>
@@ -44,12 +44,12 @@ const Header: React.FC = () => {
        <Link to="/privacy">Declaração de Privacidade</Link>
       </li>
      </ul>
-    </label>
+    </Dropdown>
     <Link to="/info">Informações</Link>
-    <button>
+    <Search>
      <FaSearch />
      Buscar
-    </button>
+    </Search>
    </Navigation>
   </Container>
  );
