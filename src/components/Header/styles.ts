@@ -26,7 +26,7 @@ export const UserNav = styled.div`
 
  a {
   color: #ff7f00;
-  font: small-caps 600 0.8em 'Segoe UI';
+  font: small-caps 600 0.9em 'Segoe UI';
   margin-right: 2vw;
 
   &:hover,
@@ -43,10 +43,10 @@ export const Navigation = styled.nav`
  > a {
   font: small-caps 400 1.4em 'Segoe UI';
   color: #ff7f00;
-  padding: 1.5vh 1.5vw 1vh 1vw;
+  padding: 1.5vh 1.3vw 1vh 1vw;
 
   & + a {
-   padding-left: 1.5vw;
+   padding-left: 1.3vw;
   }
 
   &:hover {
@@ -63,7 +63,7 @@ export const Dropdown = styled.div`
  position: relative;
  color: #ff7f00;
 
- padding: 1.5vh 2vw 1vh;
+ padding: 1.5vh 1.3vw 1vh;
 
  svg {
   margin: auto 0;
