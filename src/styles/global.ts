@@ -29,6 +29,11 @@ export default createGlobalStyle`
  }
 
  a {
+  color: #65a6c2;
   text-decoration: none;
+
+  &:hover {
+   color: #ff7f00;
+  }
  }
 `;
