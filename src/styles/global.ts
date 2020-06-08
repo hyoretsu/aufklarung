@@ -20,7 +20,8 @@ export default createGlobalStyle`
 
  #root {
   box-shadow: 0 0 10px ${transparentize(0.5, '#000')};
-  margin: 2vw 7vw;
+  background: #f5f5f5;
+  margin: 4vh 7vw;
  }
 
  button {
@@ -28,6 +29,6 @@ export default createGlobalStyle`
  }
 
  a {
-  text-decoration:none;
+  text-decoration: none;
  }
 `;
