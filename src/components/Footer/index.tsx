@@ -1,11 +1,13 @@
 import React from 'react';
 
 import { Container } from './styles';
+import FooterIcons from './components/FooterIcons';
 
 const Footer: React.FC = () => {
  return (
   <Container>
    <strong>Registros e Indexações desta Revista:</strong>
+   <FooterIcons />
    <p>
     © 2014 Aufklärung<span>®</span>, doi:10.18012/ARF, e-ISSN 2318-9428, p-ISSN 2358-8470 |{' '}
     <a href="mailto:revistaaufklarung@hotmail.com">revistaaufklarung@hotmail.com</a> | João Pessoa - PB, Brasil |{' '}
