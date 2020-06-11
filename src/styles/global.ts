@@ -14,10 +14,6 @@ export default createGlobalStyle`
   -webkit-font-smoothing: antialiased;
  }
 
- body, input, button {
-  font: 16px sans-serif;
- }
-
  #root {
   box-shadow: 0 0 10px ${transparentize(0.5, '#000')};
   background: #f5f5f5;
