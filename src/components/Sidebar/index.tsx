@@ -1,9 +1,14 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, SubmissionButton } from './styles';
 
 const Sidebar: React.FC = () => {
- return <Container></Container>;
+ return (
+  <Container>
+   <strong>Navegar</strong>
+   <SubmissionButton>Enviar submissão</SubmissionButton>
+  </Container>
+ );
 };
 
 export default Sidebar;
