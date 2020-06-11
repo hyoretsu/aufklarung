@@ -4,11 +4,11 @@
   "es6": true
  },
  "extends": [
-  "plugin:react/recommended",
   "airbnb",
-  "prettier/@typescript-eslint/recommended",
-  "prettier/@typescript-eslint",
-  "plugin:prettier/recommended"
+  "plugin:@typescript-eslint/recommended",
+  "plugin:prettier/recommended",
+  "plugin:react/recommended",
+  "prettier/@typescript-eslint"
  ],
  "globals": {
   "Atomics": "readonly",
@@ -22,10 +22,13 @@
   "ecmaVersion": 2018,
   "sourceType": "module"
  },
+ "plugins": ["@typescript-eslint", "prettier", "react", "react-hooks"],
  "rules": {
-  "plugins": ["react", "react-hooks", "prettier", "@typescript-eslint"],
   "@typescript-eslint/camelcase": "off",
-  "@typescript-eslint/explicit-function-return-type": ["error", { "allowExpressions": true }],
+  "@typescript-eslint/explicit-function-return-type": [
+   "error",
+   { "allowExpressions": true }
+  ],
   "import/extensions": [
    "error",
    "ignorePackages",
@@ -38,12 +41,14 @@
   "import/prefer-default-export": "off",
   "no-unused-expressions": "off",
   "prettier/prettier": "error",
+  "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+  "react/jsx-indent": "off",
+  "react/jsx-indent-props": "off",
   "react/jsx-one-expression-per-line": "off",
   "react/jsx-props-no-spreading": "off",
   "react/prop-types": "off",
   "react-hooks/exhaustive-deps": "error",
-  "react-hooks/rules-of-hooks": "error",
-  "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }]
+  "react-hooks/rules-of-hooks": "error"
  },
  "settings": {
   "import/resolver": {

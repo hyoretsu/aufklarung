@@ -1,16 +1,20 @@
 import React from 'react';
 
 import Header from '../../components/Header';
-import Content from '../../components/Content';
+import Article from '../../components/Article';
 import Sidebar from '../../components/Sidebar';
 import Footer from '../../components/Footer';
+
+import { Content } from './styles';
 
 const Homepage: React.FC = () => {
  return (
   <>
    <Header />
-   <Content />
-   <Sidebar />
+   <Content>
+    <Article />
+    <Sidebar />
+   </Content>
    <Footer />
   </>
  );
