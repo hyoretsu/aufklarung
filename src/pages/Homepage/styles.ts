@@ -6,3 +6,5 @@ export const Content = styled.div`
  background: #f5f5f5;
  margin: 4vh 1vw;
 `;
+
+export const News = styled.div``;
