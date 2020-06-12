@@ -25,10 +25,7 @@
  "plugins": ["@typescript-eslint", "prettier", "react", "react-hooks"],
  "rules": {
   "@typescript-eslint/camelcase": "off",
-  "@typescript-eslint/explicit-function-return-type": [
-   "error",
-   { "allowExpressions": true }
-  ],
+  "@typescript-eslint/explicit-function-return-type": ["error", { "allowExpressions": true }],
   "import/extensions": [
    "error",
    "ignorePackages",
@@ -46,6 +43,7 @@
   "react/jsx-indent-props": "off",
   "react/jsx-one-expression-per-line": "off",
   "react/jsx-props-no-spreading": "off",
+  "react/no-unescaped-entities": "off",
   "react/prop-types": "off",
   "react-hooks/exhaustive-deps": "error",
   "react-hooks/rules-of-hooks": "error"
