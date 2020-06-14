@@ -13,13 +13,14 @@
   "module": "esnext",
   "moduleResolution": "node",
   "noEmit": true,
+  "noImplicitAny": true,
   "outDir": "./dist",
   "resolveJsonModule": true,
   "rootDir": "./src",
   "skipLibCheck": true,
   "strict": true,
   "strictPropertyInitialization": false,
-  "target": "es5"
+  "target": "es6"
  },
  "include": ["src"]
 }

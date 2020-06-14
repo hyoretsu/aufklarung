@@ -4,9 +4,17 @@ export const Container = styled.footer`
  display: flex;
  flex-direction: column;
  align-items: center;
- justify-content: center;
  background: #ddd;
+ font: 0.8em 'Segoe UI';
 
- font-size: 0.8em;
- font-family: 'Segoe UI';
+ p,
+ strong {
+  margin: 1vh 0;
+ }
+
+ div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+ }
 `;
