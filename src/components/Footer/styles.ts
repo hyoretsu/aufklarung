@@ -14,7 +14,15 @@ export const Container = styled.footer`
 
  div {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   justify-content: center;
+  max-width: 83%;
+
+  a {
+   img {
+    height: 7vh;
+    margin: 0 0.2vw;
+   }
+  }
  }
 `;
