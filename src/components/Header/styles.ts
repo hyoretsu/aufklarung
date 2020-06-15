@@ -6,12 +6,14 @@ export const Container = styled.header`
  width: auto;
 
  > a {
-  cursor: default;
+  display: block;
+  width: min(100%, 500px);
+  margin: 0 auto;
 
   img {
-   height: 7.2vw;
+   max-width: 100%;
    display: block;
-   margin: 0.7vw auto 1vw;
+   padding: 1.5vh 0 1vh;
    cursor: pointer;
   }
  }
@@ -21,7 +23,6 @@ export const UserNav = styled.div`
  display: flex;
  align-items: center;
  justify-content: flex-end;
- height: 2vw;
  border-bottom: 0.1vh solid #ff7f00;
 
  a {
@@ -29,8 +30,11 @@ export const UserNav = styled.div`
   font: small-caps 600 0.9em 'Segoe UI';
   margin-right: 2vw;
 
-  &:hover,
-  &:focus {
+  @media (max-width: 426px) {
+   font-size: 1em;
+  }
+
+  &:hover {
    color: #007ab2;
   }
  }
@@ -38,7 +42,8 @@ export const UserNav = styled.div`
 
 export const Navigation = styled.nav`
  display: flex;
- align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
 
  > a {
   font: small-caps 400 1.4em 'Segoe UI';
@@ -59,7 +64,7 @@ export const Navigation = styled.nav`
 
 export const Dropdown = styled.div`
  cursor: pointer;
- font: small-caps 400 1.4em 'Segoe UI';
+ font: small-caps 1.4em 'Segoe UI';
  position: relative;
  color: #ff7f00;
 
@@ -87,24 +92,25 @@ export const Dropdown = styled.div`
    padding: 0.5vh 0.5vw;
 
    a {
-    font: small-caps 400 1em 'Segoe UI';
+    font: small-caps 1em 'Segoe UI';
     color: #ff7f00;
    }
 
    &:hover {
     background: #ddd;
-    padding-left: 0.2vw;
-    border-left: 0.3vw solid #007ab2;
+    padding-left: 0.15vw;
+    border-left: 0.35vw solid #007ab2;
 
     & a {
      color: #007ab2;
     }
    }
+
    &:first-child {
-    border-top-left-radius: 4%;
+    border-top-left-radius: 0.4vw;
    }
    &:last-child {
-    border-bottom-left-radius: 4%;
+    border-bottom-left-radius: 0.4vw;
    }
   }
  }
@@ -121,20 +127,22 @@ export const Dropdown = styled.div`
 export const Search = styled.button`
  display: flex;
  align-items: center;
- justify-content: space-between;
+ justify-content: center;
  font: small-caps 600 1em 'Segoe UI';
  color: #ff7f00;
- margin-top: 0.6vh;
  margin-left: auto;
  padding: 2vh 1vw 1vh;
 
  background: transparent;
  border: none;
 
+ @media (max-width: 426px) {
+  flex-basis: 100%;
+  padding: 1vh 0;
+ }
+
  svg {
   margin-right: 0.5vw;
-  height: 2.4vh;
-  width: auto;
  }
 
  &:hover {

@@ -20,7 +20,7 @@ export const Container = styled.footer`
 
   a {
    img {
-    height: 7vh;
+    height: min(7vh, 50px);
     margin: 0 0.2vw;
    }
   }

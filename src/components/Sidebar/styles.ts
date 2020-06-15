@@ -4,7 +4,7 @@ import { transparentize } from 'polished';
 export const Container = styled.aside`
  display: flex;
  flex-direction: column;
- width: 16vw;
+ margin-top: 4vh;
  margin-left: 2vw;
 
  strong {
@@ -13,10 +13,6 @@ export const Container = styled.aside`
   font: 700 1em 'Segoe UI';
   color: ${transparentize(0.5, '#000')};
  }
-
- a {
-  margin-right: auto;
- }
 `;
 
 export const SubmissionButton = styled.button`
@@ -24,7 +20,7 @@ export const SubmissionButton = styled.button`
  font: 700 0.9em 'Segoe UI';
  color: #fff;
 
- padding: 0.7vh 0.7vw 0.8vh;
+ padding: 0.8vh 0.7vw;
  border: 1px solid ${transparentize(0.6, '#000')};
  border-radius: 0.2vw;
 
