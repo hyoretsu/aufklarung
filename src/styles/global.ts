@@ -20,7 +20,7 @@ export default createGlobalStyle`
  }
  @media (min-width: 427px) {
   #root {
-   margin: 4vh 7vw;
+   margin: 2% 7%;
   }
  }
 
