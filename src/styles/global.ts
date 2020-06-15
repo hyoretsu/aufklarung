@@ -17,7 +17,11 @@ export default createGlobalStyle`
  #root {
   box-shadow: 0 0 10px ${transparentize(0.5, '#000')};
   background: #f5f5f5;
-  margin: 4vh 7vw;
+ }
+ @media (min-width: 427px) {
+  #root {
+   margin: 4vh 7vw;
+  }
  }
 
  button {
