@@ -23,7 +23,7 @@ export const UserNav = styled.div`
  display: flex;
  align-items: center;
  justify-content: flex-end;
- border-bottom: 0.1vh solid #ff7f00;
+ border-bottom: 1px solid #ff7f00;
 
  a {
   color: #ff7f00;
@@ -56,8 +56,8 @@ export const Navigation = styled.nav`
 
   &:hover {
    color: #007ab2;
-   padding-bottom: 0.6vh;
-   border-bottom: 0.4vh solid #007ab2;
+   padding-bottom: calc(0.6vh - 2px);
+   border-bottom: 2px solid #007ab2;
   }
  }
 `;
@@ -79,17 +79,17 @@ export const Dropdown = styled.div`
  ul {
   display: none;
   background-color: #fff;
-  width: 170%;
+  width: 190%;
   list-style: none;
-  border-radius: 3%;
+  border-radius: 8px;
 
   position: absolute;
   left: 0;
   margin-top: 1vh;
-  box-shadow: 0 0 0.5vw ${transparentize(0.7, '#000')};
+  box-shadow: 0 0 8px ${transparentize(0.3, '#000')};
 
   li {
-   padding: 0.5vh 0.5vw;
+   padding: 4px 5px;
 
    a {
     font: small-caps 1em 'Segoe UI';
@@ -98,8 +98,8 @@ export const Dropdown = styled.div`
 
    &:hover {
     background: #ddd;
-    padding-left: 0.15vw;
-    border-left: 0.35vw solid #007ab2;
+    padding-left: 2px;
+    border-left: 3px solid #007ab2;
 
     & a {
      color: #007ab2;
@@ -107,10 +107,10 @@ export const Dropdown = styled.div`
    }
 
    &:first-child {
-    border-top-left-radius: 0.4vw;
+    border-top-left-radius: 6px;
    }
    &:last-child {
-    border-bottom-left-radius: 0.4vw;
+    border-bottom-left-radius: 6px;
    }
   }
  }
@@ -147,7 +147,7 @@ export const Search = styled.button`
 
  &:hover {
   color: #007ab2;
-  padding-bottom: 0.6vh;
-  border-bottom: 0.4vh solid #007ab2;
+  padding-bottom: calc(0.6vh - 2px);
+  border-bottom: 2px solid #007ab2;
  }
 `;
