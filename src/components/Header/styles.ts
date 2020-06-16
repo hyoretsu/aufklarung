@@ -3,11 +3,11 @@ import { transparentize } from 'polished';
 
 export const Container = styled.header`
  background: #e7e7e7;
+ display: flex;
+ flex-direction: column;
  width: auto;
 
  > a {
-  display: block;
-  width: min(100%, 500px);
   margin: 0 auto;
 
   img {
@@ -24,6 +24,7 @@ export const UserNav = styled.div`
  align-items: center;
  justify-content: flex-end;
  border-bottom: 1px solid #ff7f00;
+ padding: 5px 0;
 
  a {
   color: #ff7f00;
