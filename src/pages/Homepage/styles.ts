@@ -24,6 +24,10 @@ export const HomepageNews = styled.div`
   padding: 2vh 2vw;
   font: 0.9em 'Segoe UI';
 
+  @media (max-width: 426px) {
+   padding: 2vh 3vw;
+  }
+
   div {
    display: flex;
    align-items: center;
