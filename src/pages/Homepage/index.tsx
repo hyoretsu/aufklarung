@@ -5,6 +5,7 @@ import { FaCalendarAlt } from 'react-icons/fa';
 import Header from '../../components/Header';
 import Sidebar from '../../components/Sidebar';
 import BodyTemplate from '../../components/BodyTemplate';
+import Article from '../../components/Article';
 import Footer from '../../components/Footer';
 
 import { Content, News } from './styles';
@@ -46,6 +47,7 @@ const Homepage: React.FC = () => {
        <Link to="/">Saiba mais...</Link>
       </section>
      </News>
+     <Article />
     </BodyTemplate>
     <Sidebar />
    </Content>
