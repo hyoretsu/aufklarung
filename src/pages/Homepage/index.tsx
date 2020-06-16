@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { FaCalendarAlt } from 'react-icons/fa';
 
 import Header from '../../components/Header';
-import Article from '../../components/Article';
 import Sidebar from '../../components/Sidebar';
+import BodyTemplate from '../../components/BodyTemplate';
 import Footer from '../../components/Footer';
 
 import { Content, News } from './styles';
@@ -14,7 +14,7 @@ const Homepage: React.FC = () => {
   <>
    <Header />
    <Content>
-    <Article>
+    <BodyTemplate>
      <News>
       <section>
        <Link to="/welcome">
@@ -32,7 +32,7 @@ const Homepage: React.FC = () => {
        <Link to="/welcome">Saiba mais...</Link>
       </section>
       <section>
-       <Link to="/welcome">
+       <Link to="/">
         <strong>Journal Aufklärung is now supported by CAPES/CNPq</strong>
        </Link>
        <div>
@@ -43,10 +43,10 @@ const Homepage: React.FC = () => {
         Journal Aufklärung got APPROVAL in the Public Edict "Chamada CNPq/CAPES No 26/2017 – Programa Editorial"
         [441153/2017-8].
        </span>
-       <Link to="/welcome">Saiba mais...</Link>
+       <Link to="/">Saiba mais...</Link>
       </section>
      </News>
-    </Article>
+    </BodyTemplate>
     <Sidebar />
    </Content>
    <Footer />
