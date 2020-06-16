@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { AiFillCaretDown } from 'react-icons/ai';
 import { FaSearch } from 'react-icons/fa';
 
-import logoImg from '../../assets/logo.png';
+import logoImg from 'assets/logo.png';
 
 import { Container, UserNav, Navigation, Dropdown, Search } from './styles';
 
