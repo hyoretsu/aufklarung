@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
 
 import DefaultTemplate from '../../components/DefaultTemplate';
-import Article from '../../components/Article';
+import Issue from '../../components/Issue';
 
 import { HomepageNews } from './styles';
 
@@ -48,7 +48,7 @@ const Homepage: React.FC = () => {
     </section>
    </HomepageNews>
    <strong>Edição Atual</strong>
-   <Article />
+   <Issue />
   </DefaultTemplate>
  );
 };

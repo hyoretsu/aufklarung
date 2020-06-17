@@ -6,7 +6,7 @@ import Cover from '../../assets/tmp/cover.jpg';
 
 import { Container, Introduction, Section } from './styles';
 
-const Article: React.FC = () => {
+const Issue: React.FC = () => {
  return (
   <Container>
    <Introduction>
@@ -144,4 +144,4 @@ const Article: React.FC = () => {
  );
 };
 
-export default Article;
+export default Issue;
