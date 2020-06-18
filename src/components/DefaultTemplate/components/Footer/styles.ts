@@ -7,6 +7,10 @@ export const Container = styled.footer`
  background: #ddd;
  font: 0.8em 'Segoe UI';
 
+ @media (max-width: 426px) {
+  padding: 0 2vw;
+ }
+
  p,
  strong {
   margin: 1vh 0;
