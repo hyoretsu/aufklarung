@@ -13,5 +13,4 @@
 /temp
 tmp/*
 !tmp/.gitkeep
-src/assets/tmp/*
 .vscode/
