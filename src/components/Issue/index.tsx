@@ -11,9 +11,13 @@ const Issue: React.FC = () => {
   <Container>
    <Introduction>
     <strong>v. 7 n. Especial (2020): Dossiê Sartre</strong>
-    <img src={Cover} alt="Capa da edição" />
-    <p>Dossiê Sartre</p>
-    <span>Publicado:2020-02-19</span>
+    <Link to="/issues/25">
+     <img src={Cover} alt="Capa da edição" />
+    </Link>
+    <span>Dossiê Sartre</span>
+    <span>
+     <strong>Publicado:</strong> 2020-02-19
+    </span>
    </Introduction>
    <strong>Editorial</strong>
    <Section>
