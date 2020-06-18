@@ -13,7 +13,7 @@ const Homepage: React.FC = () => {
    <HomepageNews>
     <section>
      <Link to="/welcome">
-      <strong>Bem-vindo!</strong>
+      <h3>Bem-vindo!</h3>
      </Link>
      <div>
       <FaCalendarAlt />
@@ -31,7 +31,7 @@ const Homepage: React.FC = () => {
     </section>
     <section>
      <Link to="/">
-      <strong>Journal Aufklärung is now supported by CAPES/CNPq</strong>
+      <h3>Journal Aufklärung is now supported by CAPES/CNPq</h3>
      </Link>
      <div>
       <FaCalendarAlt />

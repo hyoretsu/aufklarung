@@ -42,9 +42,8 @@ export const HomepageNews = styled.div`
    margin-right: auto;
    max-width: 90%;
 
-   strong {
+   h3 {
     font-variant: small-caps;
-    font-size: 1.2em;
    }
 
    svg {
