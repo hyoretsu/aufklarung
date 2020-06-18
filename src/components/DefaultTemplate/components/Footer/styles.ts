@@ -6,6 +6,7 @@ export const Container = styled.footer`
  align-items: center;
  background: #ddd;
  font: 0.8em 'Segoe UI';
+ text-align: center;
 
  @media (max-width: 426px) {
   padding: 0 2vw;
