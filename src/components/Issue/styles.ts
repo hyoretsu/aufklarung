@@ -9,6 +9,10 @@ export const Container = styled.article`
   color: ${transparentize(0.5, '#000')};
 
   margin: 1vh 0 0 2vw;
+
+  @media (max-width: 426px) {
+   margin: 1vh 0 0 3vw;
+  }
  }
 
  > div {
@@ -54,6 +58,14 @@ export const Section = styled.section`
  flex-direction: column;
  padding: 1vh 2vw 2vh;
 
+ @media (max-width: 426px) {
+  padding: 1vh 3vw 2vh;
+
+  &:last-of-type {
+   padding-bottom: 3vh;
+  }
+ }
+
  a {
   color: #ff9000;
   margin-right: auto;
@@ -66,8 +78,13 @@ export const Section = styled.section`
   font: 0.9em 'Segoe UI';
   margin: 0.5vh 0 1.5vh;
 
+  p {
+   flex: 1;
+  }
+
   span {
    color: ${transparentize(0.5, '#000')};
+   margin-left: 2vw;
   }
  }
 
@@ -79,6 +96,10 @@ export const Section = styled.section`
 
   padding: 1vh 1vw;
   border-radius: 3px;
+
+  @media (max-width: 426px) {
+   padding: 1vh 3vw;
+  }
 
   svg {
    margin-right: 0.5vw;

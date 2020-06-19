@@ -23,5 +23,9 @@ export const Body = styled.main`
   font: small-caps 700 1.2em 'Segoe UI';
   color: #ff9000;
   margin: 1vh auto 0 2vw;
+
+  @media (max-width: 426px) {
+   margin-left: 3vw;
+  }
  }
 `;
