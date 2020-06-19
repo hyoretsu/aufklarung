@@ -6,7 +6,7 @@ export const Content = styled.div`
  margin: 4vh 1vw;
 
  @media (max-width: 426px) {
-  margin: 4vh 3vw;
+  margin: 4vh 4vw;
  }
 `;
 
@@ -25,7 +25,7 @@ export const Body = styled.main`
   margin: 1vh auto 0 2vw;
 
   @media (max-width: 426px) {
-   margin-left: 3vw;
+   margin-left: 4vw;
   }
  }
 `;

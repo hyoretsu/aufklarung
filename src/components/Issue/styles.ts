@@ -11,7 +11,7 @@ export const Container = styled.article`
   margin: 1vh 0 0 2vw;
 
   @media (max-width: 426px) {
-   margin: 1vh 0 0 3vw;
+   margin: 1vh 0 0 4vw;
   }
  }
 
@@ -28,7 +28,7 @@ export const Introduction = styled.div`
  padding: 2vh 2vw;
 
  @media (max-width: 426px) {
-  padding: 2vh 3vw;
+  padding: 2vh 4vw;
  }
 
  strong {
@@ -59,7 +59,7 @@ export const Section = styled.section`
  padding: 1vh 2vw 2vh;
 
  @media (max-width: 426px) {
-  padding: 1vh 3vw 2vh;
+  padding: 1vh 4vw 2vh;
 
   &:last-of-type {
    padding-bottom: 3vh;
@@ -98,7 +98,7 @@ export const Section = styled.section`
   border-radius: 3px;
 
   @media (max-width: 426px) {
-   padding: 1vh 3vw;
+   padding: 1vh 4vw;
   }
 
   svg {

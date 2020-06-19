@@ -15,7 +15,7 @@ export const HomepageNews = styled.div`
   font: 0.9em 'Segoe UI';
 
   @media (max-width: 426px) {
-   padding: 2vh 3vw;
+   padding: 2vh 4vw;
   }
 
   div {
