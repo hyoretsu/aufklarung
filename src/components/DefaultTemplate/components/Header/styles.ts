@@ -134,9 +134,6 @@ export const Search = styled.button`
  margin-left: auto;
  padding: 2vh 1vw 1vh;
 
- background: transparent;
- border: none;
-
  @media (max-width: 426px) {
   flex-basis: 100%;
   padding: 1vh 0;
@@ -148,7 +145,7 @@ export const Search = styled.button`
 
  &:hover {
   color: #007ab2;
-  padding-bottom: calc(0.6vh - 2px);
+  padding-bottom: calc(1vh - 2px);
   border-bottom: 2px solid #007ab2;
  }
 `;
