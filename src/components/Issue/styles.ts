@@ -1,6 +1,20 @@
 import styled from 'styled-components';
+import { transparentize } from 'polished';
 
-export const Container = styled.article``;
+export const Container = styled.article`
+ > strong {
+  display: block;
+
+  font: small-caps 700 1.4em 'Segoe UI';
+  color: ${transparentize(0.5, '#000')};
+
+  margin: 1vh 0 0 2vw;
+ }
+
+ > div {
+  border-bottom: 1px solid #ddd;
+ }
+`;
 
 export const Introduction = styled.div`
  display: flex;
@@ -8,7 +22,6 @@ export const Introduction = styled.div`
  align-items: center;
 
  padding: 2vh 2vw;
- border-bottom: 1px solid #ddd;
 
  @media (max-width: 426px) {
   padding: 2vh 3vw;
@@ -36,4 +49,43 @@ export const Introduction = styled.div`
  }
 `;
 
-export const Section = styled.section``;
+export const Section = styled.section`
+ display: flex;
+ flex-direction: column;
+ padding: 1vh 2vw 2vh;
+
+ a {
+  color: #ff9000;
+  margin-right: auto;
+  font: small-caps 1.4em 'Segoe UI';
+ }
+
+ div {
+  display: flex;
+  justify-content: space-between;
+  font: 0.9em 'Segoe UI';
+  margin: 0.5vh 0 1.5vh;
+
+  span {
+   color: ${transparentize(0.5, '#000')};
+  }
+ }
+
+ button {
+  display: flex;
+  align-self: flex-start;
+  background: #4b7d92;
+  color: #fff;
+
+  padding: 1vh 1vw;
+  border-radius: 3px;
+
+  svg {
+   margin-right: 0.5vw;
+  }
+
+  &:hover {
+   background: #ff9000;
+  }
+ }
+`;
