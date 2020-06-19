@@ -47,7 +47,9 @@ const Homepage: React.FC = () => {
      </Link>
     </section>
    </HomepageNews>
-   <h3>Edição Atual</h3>
+   <Link to="/issues">
+    <h3>Edição Atual</h3>
+   </Link>
    <Issue />
   </DefaultTemplate>
  );

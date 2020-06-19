@@ -70,6 +70,10 @@ export const Section = styled.section`
   color: #ff9000;
   margin-right: auto;
   font: small-caps 1.4em 'Segoe UI';
+
+  &:hover {
+   color: #4b7d92;
+  }
  }
 
  div {

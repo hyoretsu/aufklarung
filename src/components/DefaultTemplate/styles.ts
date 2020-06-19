@@ -19,13 +19,17 @@ export const Body = styled.main`
  border: 1px solid #4b7d92;
  border-radius: 0 35px;
 
- > h3 {
+ > a {
   font: small-caps 700 1.2em 'Segoe UI';
   color: #ff9000;
   margin: 1vh auto 0 2vw;
 
   @media (max-width: 426px) {
    margin-left: 4vw;
+  }
+
+  &:hover h3 {
+   color: #4b7d92;
   }
  }
 `;
