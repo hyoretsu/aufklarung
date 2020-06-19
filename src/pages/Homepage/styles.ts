@@ -51,7 +51,7 @@ export const HomepageNews = styled.div`
    }
 
    &:hover {
-    color: #65a6c2;
+    color: #4b7d92;
    }
   }
 
