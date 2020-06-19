@@ -9,8 +9,8 @@ import { Container, Introduction, Section } from './styles';
 const Issue: React.FC = () => {
  return (
   <Container>
+   {window.location.pathname === '/' && <span>v. 7 n. Especial (2020): Dossiê Sartre</span>}
    <Introduction>
-    <strong>v. 7 n. Especial (2020): Dossiê Sartre</strong>
     <Link to="/issues/25">
      <img src={Cover} alt="Capa da edição" />
     </Link>

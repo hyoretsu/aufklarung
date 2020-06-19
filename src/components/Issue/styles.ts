@@ -2,16 +2,24 @@ import styled from 'styled-components';
 import { transparentize } from 'polished';
 
 export const Container = styled.article`
- > strong {
+ span {
   display: block;
+  font: 700 0.9em 'Segoe UI';
+  margin: 2vh 0 0 2vw;
 
+  @media (max-width: 426px) {
+   margin-left: 4vw;
+  }
+ }
+
+ > strong {
   font: small-caps 700 1.4em 'Segoe UI';
   color: ${transparentize(0.5, '#000')};
 
   margin: 1vh 0 0 2vw;
 
   @media (max-width: 426px) {
-   margin: 1vh 0 0 4vw;
+   margin-left: 4vw;
   }
  }
 
@@ -29,11 +37,6 @@ export const Introduction = styled.div`
 
  @media (max-width: 426px) {
   padding: 2vh 4vw;
- }
-
- strong {
-  align-self: flex-start;
-  margin-bottom: 2vh;
  }
 
  img {

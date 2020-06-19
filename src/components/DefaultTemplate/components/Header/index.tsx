@@ -19,7 +19,7 @@ const Header: React.FC = () => {
    <Navigation>
     <Link to="/">Início</Link>
     <Link to="/current">Atual</Link>
-    <Link to="/archives">Arquivos</Link>
+    <Link to="/issues">Arquivos</Link>
     <Link to="/news">Notícias</Link>
     <Dropdown>
      Sobre

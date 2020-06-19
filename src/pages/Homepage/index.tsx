@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
 
@@ -8,6 +8,10 @@ import Issue from '../../components/Issue';
 import { HomepageNews } from './styles';
 
 const Homepage: React.FC = () => {
+ useEffect(() => {
+  window.scrollTo(0, 0);
+ }, []);
+
  return (
   <DefaultTemplate>
    <HomepageNews>
@@ -47,9 +51,7 @@ const Homepage: React.FC = () => {
      </Link>
     </section>
    </HomepageNews>
-   <Link to="/issues">
-    <h3>Edição Atual</h3>
-   </Link>
+   <h3>Edição Atual</h3>
    <Issue />
   </DefaultTemplate>
  );
