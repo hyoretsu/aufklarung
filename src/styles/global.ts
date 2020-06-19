@@ -26,6 +26,8 @@ export default createGlobalStyle`
 
  button {
   cursor: pointer;
+  background: transparent;
+  border: none;
  }
 
  a {
