@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
- font: 0.9em 'Segoe UI';
+ font-size: 0.9em;
  margin: 2vh auto 0 2vw;
 
  span:last-of-type {

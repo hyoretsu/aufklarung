@@ -6,6 +6,7 @@ export const Container = styled.header`
  display: flex;
  flex-direction: column;
  width: auto;
+ font-variant: small-caps;
 
  > a {
   margin: 0 auto;
@@ -28,7 +29,9 @@ export const UserNav = styled.div`
 
  a {
   color: #ff7f00;
-  font: small-caps 600 0.9em 'Segoe UI';
+  font-size: 0.9em;
+  font-weight: 600;
+
   margin-right: 2vw;
 
   @media (max-width: 426px) {
@@ -47,7 +50,8 @@ export const Navigation = styled.nav`
  flex-wrap: wrap;
 
  > a {
-  font: small-caps 400 1.4em 'Segoe UI';
+  font-size: 1.4em;
+
   color: #ff7f00;
   padding: 1.5vh 1.3vw 1vh 1vw;
 
@@ -65,7 +69,8 @@ export const Navigation = styled.nav`
 
 export const Dropdown = styled.div`
  cursor: pointer;
- font: small-caps 1.4em 'Segoe UI';
+ font-size: 1.4em;
+
  position: relative;
  color: #ff7f00;
 
@@ -93,7 +98,8 @@ export const Dropdown = styled.div`
    padding: 4px 5px;
 
    a {
-    font: small-caps 1em 'Segoe UI';
+    font-size: 1em;
+
     color: #ff7f00;
    }
 
@@ -129,7 +135,9 @@ export const Search = styled.button`
  display: flex;
  align-items: center;
  justify-content: center;
- font: small-caps 600 1em 'Segoe UI';
+ font-size: 1em;
+ font-weight: 600;
+
  color: #ff7f00;
  margin-left: auto;
  padding: 2vh 1vw 1vh;

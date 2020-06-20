@@ -5,7 +5,7 @@ export const Container = styled.footer`
  flex-direction: column;
  align-items: center;
  background: #ddd;
- font: 0.8em 'Segoe UI';
+ font-size: 0.8em;
  text-align: center;
 
  @media (max-width: 426px) {

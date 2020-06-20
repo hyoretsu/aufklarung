@@ -10,14 +10,16 @@ export const Container = styled.aside`
  strong {
   margin-bottom: 4vh;
 
-  font: 700 1em 'Segoe UI';
+  font-size: 1em;
+  font-weight: 700;
   color: ${transparentize(0.5, '#000')};
  }
 `;
 
 export const SubmissionButton = styled.button`
  background-color: #4b7d92;
- font: 700 0.9em 'Segoe UI';
+ font-size: 0.9em;
+ font-weight: 700;
  color: #fff;
 
  padding: 0.8vh 0.7vw;
