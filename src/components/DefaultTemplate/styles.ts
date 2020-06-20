@@ -20,7 +20,9 @@ export const Body = styled.main`
  border-radius: 0 35px;
 
  > h3 {
-  font: small-caps 700 1.4em 'Segoe UI';
+  font-size: 1.4em;
+  font-weight: 700;
+  font-variant: small-caps;
   color: #ff9000;
   margin: 1vh auto 0 2vw;
 

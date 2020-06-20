@@ -4,7 +4,8 @@ import { transparentize } from 'polished';
 export const Container = styled.article`
  span {
   display: block;
-  font: 700 0.9em 'Segoe UI';
+  font-size: 0.9em;
+  font-weight: 700;
   margin: 2vh 0 0 2vw;
 
   @media (max-width: 426px) {
@@ -13,7 +14,9 @@ export const Container = styled.article`
  }
 
  > strong {
-  font: small-caps 700 1.4em 'Segoe UI';
+  font-size: 1.4em;
+  font-weight: 700;
+  font-variant: small-caps;
   color: ${transparentize(0.5, '#000')};
 
   margin: 1vh 0 0 2vw;
@@ -46,7 +49,7 @@ export const Introduction = styled.div`
  }
 
  span {
-  font: 1em 'Segoe UI';
+  font-size: 1em;
   color: #000;
   margin-top: 2vh;
 
@@ -72,7 +75,8 @@ export const Section = styled.section`
  a {
   color: #ff9000;
   margin-right: auto;
-  font: small-caps 1.4em 'Segoe UI';
+  font-size: 1.4em;
+  font-variant: small-caps;
 
   &:hover {
    color: #4b7d92;
@@ -82,7 +86,7 @@ export const Section = styled.section`
  div {
   display: flex;
   justify-content: space-between;
-  font: 0.9em 'Segoe UI';
+  font-size: 0.9em;
   margin: 0.5vh 0 1.5vh;
 
   p {
