@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { transparentize } from 'polished';
 
 export const Container = styled.article`
- span {
+ > span {
   display: block;
   font-size: 0.9em;
   font-weight: 700;
