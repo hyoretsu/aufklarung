@@ -71,15 +71,16 @@ export const Section = styled.section`
    padding-bottom: 3vh;
   }
  }
-
- a {
-  color: #ff9000;
-  margin-right: auto;
-  font-size: 1.4em;
+ > p {
   font-variant: small-caps;
+  font-size: 1.4em;
 
-  &:hover {
-   color: #4b7d92;
+  a {
+   color: #ff9000;
+
+   &:hover {
+    color: #4b7d92;
+   }
   }
  }
 

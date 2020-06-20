@@ -12,9 +12,9 @@ const Homepage: React.FC = () => {
   <DefaultTemplate>
    <HomepageNews>
     <section>
-     <Link to="/welcome">
-      <h3>Bem-vindo!</h3>
-     </Link>
+     <h3>
+      <Link to="/welcome">Bem-vindo!</Link>
+     </h3>
      <div>
       <FaCalendarAlt />
       2019-10-28
@@ -30,9 +30,9 @@ const Homepage: React.FC = () => {
      </Link>
     </section>
     <section>
-     <Link to="/">
-      <h3>Journal Aufklärung is now supported by CAPES/CNPq</h3>
-     </Link>
+     <h3>
+      <Link to="/">Journal Aufklärung is now supported by CAPES/CNPq</Link>
+     </h3>
      <div>
       <FaCalendarAlt />
       2018-11-05

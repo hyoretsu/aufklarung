@@ -18,6 +18,19 @@ export const HomepageNews = styled.div`
    padding: 2vh 4vw;
   }
 
+  h3 {
+   font-variant: small-caps;
+   font-weight: 700;
+
+   a {
+    color: #ff7f00;
+
+    &:hover {
+     color: #4b7d92;
+    }
+   }
+  }
+
   div {
    display: flex;
    align-items: center;
@@ -34,17 +47,12 @@ export const HomepageNews = styled.div`
    }
   }
 
-  a {
+  > a {
    display: flex;
    align-items: center;
    font-weight: 700;
    color: #ff7f00;
-   margin-right: auto;
-   max-width: 90%;
-
-   h3 {
-    font-variant: small-caps;
-   }
+   margin: auto auto 0 0;
 
    svg {
     margin: 5px;
@@ -53,10 +61,6 @@ export const HomepageNews = styled.div`
    &:hover {
     color: #4b7d92;
    }
-  }
-
-  p + a {
-   margin-top: auto;
   }
 
   & + section {
