@@ -1,18 +1,25 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 
-import Homepage from '../pages/Homepage';
-import Info from '../pages/Info';
-import Issue from '../pages/Issue';
+import Loading from '../pages/Loading';
+import Error from '../pages/Error';
+
+const Homepage = lazy(() => import('../pages/Homepage'));
+const Info = lazy(() => import('../pages/Info'));
+const Issue = lazy(() => import('../pages/Issue'));
 
 const Routes: React.FC = () => (
- <Switch>
-  <Route path="/" exact component={Homepage} />
-  <Route path="/current" component={() => <Redirect to="/issues/25" />} />
-  <Route path="/info" component={Info} />
+ <Suspense fallback={Loading}>
+  <Switch>
+   <Route path="/" exact component={Homepage} />
+   <Route path="/current" component={() => <Redirect to="/issues/25" />} />
+   <Route path="/info" component={Info} />
 
-  <Route path="/issues/:id" exact component={Issue} />
- </Switch>
+   <Route path="/issues/:id" exact component={Issue} />
+
+   <Route component={Error} />
+  </Switch>
+ </Suspense>
 );
 
 export default Routes;
