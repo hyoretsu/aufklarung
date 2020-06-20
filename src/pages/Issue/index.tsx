@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 import DefaultTemplate from '../../components/DefaultTemplate';
@@ -6,10 +6,6 @@ import LocationInfo from '../../components/LocationInfo';
 import Details from '../../components/Issue';
 
 const Issue: React.FC = () => {
- useEffect(() => {
-  window.scrollTo(0, 0);
- }, []);
-
  return (
   <DefaultTemplate>
    <LocationInfo>
