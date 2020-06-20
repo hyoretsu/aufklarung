@@ -8,7 +8,9 @@ const LocationInfo: React.FC = ({ children }) => {
 
  return (
   <Container>
-   <Link to="/">Início</Link>
+   <span>
+    <Link to="/">Início</Link>
+   </span>
    {' / '}
    {pathname.includes('issues') && (
     <span>
