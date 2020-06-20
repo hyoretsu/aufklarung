@@ -1,4 +1,13 @@
 import styled from 'styled-components';
+import { transparentize } from 'polished';
+
+export const Container = styled.div`
+ box-shadow: 0 0 10px ${transparentize(0.5, '#000')};
+
+ @media (min-width: 427px) {
+  margin: 2% 7%;
+ }
+`;
 
 export const Content = styled.div`
  display: flex;

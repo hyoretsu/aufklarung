@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import { transparentize } from 'polished';
 
 export default createGlobalStyle`
  * {
@@ -10,19 +9,15 @@ export default createGlobalStyle`
  }
 
  body {
-  background: #f5f5f5;
   font-family: 'Segoe UI';
   -webkit-font-smoothing: antialiased;
  }
 
  #root {
-  box-shadow: 0 0 10px ${transparentize(0.5, '#000')};
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #f5f5f5;
- }
- @media (min-width: 427px) {
-  #root {
-   margin: 2% 7%;
-  }
  }
 
  button {
