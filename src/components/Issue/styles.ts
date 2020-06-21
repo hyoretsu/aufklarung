@@ -6,7 +6,7 @@ export const Container = styled.article`
   display: block;
   font-size: 0.9em;
   font-weight: 700;
-  margin: 2vh 0 0 2vw;
+  margin: 2vh 0 2vh 2vw;
 
   @media (max-width: 426px) {
    margin-left: 4vw;
@@ -36,10 +36,10 @@ export const Introduction = styled.div`
  flex-direction: column;
  align-items: center;
 
- padding: 2vh 2vw;
+ padding: 0 2vw;
 
  @media (max-width: 426px) {
-  padding: 2vh 4vw;
+  padding: 0 4vw;
  }
 
  img {

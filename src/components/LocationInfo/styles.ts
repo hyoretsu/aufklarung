@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
  font-size: 0.9em;
- margin: 2vh auto 0 2vw;
+ margin: 2vh auto 2vh 2vw;
 
  span:last-of-type {
   cursor: text !important;
