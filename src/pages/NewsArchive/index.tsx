@@ -6,7 +6,7 @@ import DefaultTemplate from '../../components/DefaultTemplate';
 import LocationInfo from '../../components/LocationInfo';
 import Section from '../../components/News';
 
-export const News: React.FC = () => {
+export const NewsArchive: React.FC = () => {
  return (
   <DefaultTemplate>
    <LocationInfo />
@@ -356,4 +356,4 @@ export const News: React.FC = () => {
  );
 };
 
-export default News;
+export default NewsArchive;
