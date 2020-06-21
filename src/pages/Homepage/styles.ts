@@ -19,10 +19,8 @@ export const HomepageNews = styled.div`
   }
 
   h3 {
-   font-variant: small-caps;
-   font-weight: 700;
-
    a {
+    font-variant: small-caps;
     color: #ff7f00;
 
     &:hover {

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
 
+import LocationInfo from '../../components/LocationInfo';
 import DefaultTemplate from '../../components/DefaultTemplate';
 
 import { Section } from './styles';
@@ -9,6 +10,7 @@ import { Section } from './styles';
 export const News: React.FC = () => {
  return (
   <DefaultTemplate>
+   <LocationInfo />
    <Section>
     <h3>
      <Link to="/news/24">Journal Aufklärung is now supported by CAPES/CNPq</Link>
