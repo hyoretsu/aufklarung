@@ -17,7 +17,7 @@ const Homepage: React.FC = () => {
      </h3>
      <div>
       <FaCalendarAlt />
-      2019-10-28
+      <span>2019-10-28</span>
      </div>
      <p>
       A <i>Revista Aufklärung</i> adota o processo de revisão cega pelos pares (double blind peer review) e tem como
@@ -25,24 +25,24 @@ const Homepage: React.FC = () => {
       ligados à pós-graduação na área.
      </p>
      <Link to="/welcome">
-      Saiba mais...
+      <span>Saiba mais</span>
       <FaChevronRight />
      </Link>
     </section>
     <section>
      <h3>
-      <Link to="/">Journal Aufklärung is now supported by CAPES/CNPq</Link>
+      <Link to="/news/24">Journal Aufklärung is now supported by CAPES/CNPq</Link>
      </h3>
      <div>
       <FaCalendarAlt />
-      2018-11-05
+      <span>2018-11-05</span>
      </div>
      <p>
       Journal Aufklärung got APPROVAL in the Public Edict "Chamada CNPq/CAPES No 26/2017 – Programa Editorial"
       [441153/2017-8].
      </p>
-     <Link to="/">
-      Saiba mais...
+     <Link to="/news/24">
+      <span>Saiba mais</span>
       <FaChevronRight />
      </Link>
     </section>
