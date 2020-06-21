@@ -2,10 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
 
-import LocationInfo from '../../components/LocationInfo';
 import DefaultTemplate from '../../components/DefaultTemplate';
-
-import { Section } from './styles';
+import LocationInfo from '../../components/LocationInfo';
+import Section from '../../components/News';
 
 export const News: React.FC = () => {
  return (
