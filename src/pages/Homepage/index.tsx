@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
 
 import DefaultTemplate from '../../components/DefaultTemplate';
+import Section from '../../components/News';
 import Issue from '../../components/Issue';
 
 import { HomepageNews } from './styles';
@@ -11,7 +12,7 @@ const Homepage: React.FC = () => {
  return (
   <DefaultTemplate>
    <HomepageNews>
-    <section>
+    <Section>
      <h3>
       <Link to="/welcome">Bem-vindo!</Link>
      </h3>
@@ -28,8 +29,8 @@ const Homepage: React.FC = () => {
       <span>Saiba mais</span>
       <FaChevronRight />
      </Link>
-    </section>
-    <section>
+    </Section>
+    <Section>
      <h3>
       <Link to="/news/24">Journal Aufklärung is now supported by CAPES/CNPq</Link>
      </h3>
@@ -45,7 +46,7 @@ const Homepage: React.FC = () => {
       <span>Saiba mais</span>
       <FaChevronRight />
      </Link>
-    </section>
+    </Section>
    </HomepageNews>
    <h3>Edição Atual</h3>
    <Issue />
