@@ -6,9 +6,19 @@ export const Section = styled.section`
  padding: 2vh 2vw;
  border-top: 1px solid #ddd;
 
+ @media (max-width: 426px) {
+  flex-direction: column;
+  align-items: center;
+ }
+
  a {
   img {
    max-height: 15vw;
+
+   @media (max-width: 426px) {
+    max-height: 100%;
+    max-width: 100%;
+   }
   }
  }
 
