@@ -20,10 +20,8 @@ export default createGlobalStyle`
   background: #f5f5f5;
  }
 
- button {
-  cursor: pointer;
-  background: transparent;
-  border: none;
+ p {
+  text-align: justify;
  }
 
  a {
@@ -33,5 +31,11 @@ export default createGlobalStyle`
   &:hover {
    color: #ff7f00;
   }
+ }
+
+ button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
  }
 `;
