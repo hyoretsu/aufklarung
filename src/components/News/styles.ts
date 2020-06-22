@@ -13,6 +13,10 @@ export const Section = styled.section`
  @media (max-width: 426px) {
   padding: 2vh 4vw;
 
+  &:last-of-type {
+   padding-bottom: 3vh;
+  }
+
   p {
    text-align: unset;
   }

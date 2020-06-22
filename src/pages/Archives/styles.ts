@@ -9,6 +9,7 @@ export const Section = styled.section`
  @media (max-width: 426px) {
   flex-direction: column;
   align-items: center;
+  padding: 2vh 4vw;
  }
 
  a {
@@ -31,6 +32,7 @@ export const Section = styled.section`
   }
 
   p {
+   font-size: 0.9em;
    margin-top: 2vh;
   }
  }

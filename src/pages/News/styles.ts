@@ -2,11 +2,10 @@ import styled from 'styled-components';
 import { transparentize } from 'polished';
 
 export const Styling = styled.div`
- margin: 2vh 2vw 2vh 2vw;
+ margin: 2vh 2vw;
 
  @media (max-width: 426px) {
-  margin-left: 4vw;
-  margin-bottom: 3vh;
+  margin: 2vh 4vw 3vw;
  }
 
  > h2 {
