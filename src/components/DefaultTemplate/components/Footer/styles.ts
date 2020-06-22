@@ -6,7 +6,6 @@ export const Container = styled.footer`
  align-items: center;
  background: #ddd;
  font-size: 0.8em;
- text-align: center;
 
  @media (max-width: 426px) {
   padding: 0 2vw;
@@ -14,6 +13,7 @@ export const Container = styled.footer`
 
  p,
  strong {
+  text-align: center;
   margin: 1vh 0;
  }
 
