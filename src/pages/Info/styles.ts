@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Styling = styled.div`
  > h2 {
+  font-variant: small-caps;
   color: #ff9000;
   margin: 2vh 0 0 2vw;
 
@@ -27,6 +28,7 @@ export const Section = styled.section`
  }
 
  h3 {
+  font-variant: small-caps;
   color: #ff9000;
   margin-bottom: 1vh;
  }
