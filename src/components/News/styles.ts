@@ -12,6 +12,10 @@ export const Section = styled.section`
 
  @media (max-width: 426px) {
   padding: 2vh 4vw;
+
+  p {
+   text-align: unset;
+  }
  }
 
  h3 {
