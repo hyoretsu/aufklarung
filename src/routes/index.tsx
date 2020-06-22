@@ -12,7 +12,7 @@ const Archives = lazy(() => import('../pages/Archives'));
 const Issue = lazy(() => import('../pages/Issue'));
 
 const Routes: React.FC = () => (
- <Suspense fallback={Loading}>
+ <Suspense fallback={<Loading />}>
   <Switch>
    <Route path="/" exact component={Homepage} />
    <Route path="/issues/current" component={() => <Redirect to="/issues/19" />} />
