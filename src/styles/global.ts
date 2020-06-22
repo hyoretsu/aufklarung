@@ -21,6 +21,7 @@ export default createGlobalStyle`
  }
 
  p {
+  hyphens: auto;
   text-align: justify;
  }
 
