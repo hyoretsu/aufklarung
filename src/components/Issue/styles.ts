@@ -13,21 +13,21 @@ export const Container = styled.article`
   }
  }
 
- > strong {
-  font-size: 1.4em;
-  font-weight: 700;
-  font-variant: small-caps;
-  color: ${transparentize(0.5, '#000')};
-
-  margin: 1vh 0 0 2vw;
-
-  @media (max-width: 426px) {
-   margin-left: 4vw;
-  }
- }
-
  > div {
   border-bottom: 1px solid #ddd;
+
+  > strong {
+   font-size: 1.4em;
+   font-weight: 700;
+   font-variant: small-caps;
+   color: ${transparentize(0.5, '#000')};
+
+   margin: 1vh 0 0 2vw;
+
+   @media (max-width: 426px) {
+    margin-left: 4vw;
+   }
+  }
  }
 `;
 
@@ -71,9 +71,14 @@ export const Section = styled.section`
    padding-bottom: 3vh;
   }
  }
+
  > p {
   font-variant: small-caps;
   font-size: 1.4em;
+
+  @media (max-width: 426px) {
+   text-align: unset;
+  }
 
   a {
    color: #ff9000;

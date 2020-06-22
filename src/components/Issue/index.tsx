@@ -21,8 +21,8 @@ const Issue: React.FC = () => {
      <strong>Publicado:</strong> 2020-02-19
     </span>
    </Introduction>
-   <strong>Editorial</strong>
    <div>
+    <strong>Editorial</strong>
     <Section>
      <p>
       <Link to="/issues/19/articles/1">Apresentação</Link>
