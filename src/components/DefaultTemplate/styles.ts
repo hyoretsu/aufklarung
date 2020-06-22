@@ -27,25 +27,4 @@ export const Body = styled.main`
  min-width: 70%;
  border: 1px solid #4b7d92;
  border-radius: 0 35px;
-
- > h2 {
-  color: #ff9000;
-  margin: 2vh 0 0 2vw;
-
-  @media (max-width: 426px) {
-   margin-left: 4vw;
-  }
- }
-
- > h3 {
-  font-size: 1.4em;
-  font-weight: 700;
-  font-variant: small-caps;
-  color: #ff9000;
-  margin: 1vh auto 0 2vw;
-
-  @media (max-width: 426px) {
-   margin-left: 4vw;
-  }
- }
 `;

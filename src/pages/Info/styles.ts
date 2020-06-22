@@ -1,5 +1,16 @@
 import styled from 'styled-components';
 
+export const Styling = styled.div`
+ > h2 {
+  color: #ff9000;
+  margin: 2vh 0 0 2vw;
+
+  @media (max-width: 426px) {
+   margin-left: 4vw;
+  }
+ }
+`;
+
 export const Section = styled.section`
  margin: 2vh 2vw 0;
 
