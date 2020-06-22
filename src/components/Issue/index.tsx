@@ -18,26 +18,25 @@ const Issue: React.FC = () => {
     </Link>
     <span>Dossiê Sartre</span>
     <span>
-     <strong>Publicado:</strong> 2020-02-19
+     <strong>Publicado: </strong>
+     <span>2020-02-19</span>
     </span>
    </Introduction>
-   <div>
-    <strong>Editorial</strong>
-    <Section>
-     <p>
-      <Link to="/issues/19/articles/1">Apresentação</Link>
-     </p>
-     <div>
-      <p>Claudinei Aparecido de Freitas da Silva</p>
-      <span>p.7-10</span>
-     </div>
+   <strong>Editorial</strong>
+   <Section>
+    <p>
+     <Link to="/issues/19/articles/1">Apresentação</Link>
+    </p>
+    <div>
+     <p>Claudinei Aparecido de Freitas da Silva</p>
+     <span>p.7-10</span>
+    </div>
 
-     <button type="button">
-      <FaRegFilePdf />
-      PDF
-     </button>
-    </Section>
-   </div>
+    <button type="button">
+     <FaRegFilePdf />
+     PDF
+    </button>
+   </Section>
    <strong>Artigos</strong>
    <Section>
     <p>

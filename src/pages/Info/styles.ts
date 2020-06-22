@@ -4,10 +4,10 @@ export const Styling = styled.div`
  > h2 {
   font-variant: small-caps;
   color: #ff9000;
-  margin: 2vh 0 0 2vw;
+  margin: 2vh 2vw 0;
 
   @media (max-width: 426px) {
-   margin-left: 4vw;
+   margin: 2vh 4vw 0;
   }
  }
 `;
@@ -16,7 +16,7 @@ export const Section = styled.section`
  margin: 2vh 2vw 0;
 
  @media (max-width: 426px) {
-  margin-left: 4vw;
+  margin: 2vh 4vw 0;
  }
 
  &:last-of-type {
