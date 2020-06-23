@@ -8,6 +8,7 @@ const Homepage = lazy(() => import('../pages/Homepage'));
 const NewsArchive = lazy(() => import('../pages/NewsArchive'));
 const News = lazy(() => import('../pages/News'));
 const Info = lazy(() => import('../pages/Info'));
+const IndexCard = lazy(() => import('../pages/IndexCard'));
 const Contact = lazy(() => import('../pages/Contact'));
 const Privacy = lazy(() => import('../pages/Privacy'));
 const Archives = lazy(() => import('../pages/Archives'));
@@ -22,6 +23,7 @@ const Routes: React.FC = () => (
    <Route path="/news/:id" component={News} />
    <Route path="/info" component={Info} />
 
+   <Route path="/index_card" component={IndexCard} />
    <Route path="/contact" component={Contact} />
    <Route path="/privacy" component={Privacy} />
 

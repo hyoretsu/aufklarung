@@ -34,7 +34,8 @@ export default createGlobalStyle`
   }
  }
 
- button {
+ button,
+ img {
   cursor: pointer;
   background: transparent;
   border: none;
