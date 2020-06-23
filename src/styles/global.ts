@@ -40,4 +40,12 @@ export default createGlobalStyle`
   background: transparent;
   border: none;
  }
+
+ fieldset {
+  border: none;
+ }
+
+ label{
+  cursor: text
+ }
 `;
