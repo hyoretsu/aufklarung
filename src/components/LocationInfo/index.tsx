@@ -52,6 +52,11 @@ const LocationInfo: React.FC = ({ children }) => {
      <Link to="/privacy">Declarações de Privacidade</Link>
     </span>
    )}
+   {pathname.includes('login') && (
+    <span>
+     <Link to="/login">Acesso</Link>
+    </span>
+   )}
    {children && ' / '}
    {children && <span>{children}</span>}
   </Container>

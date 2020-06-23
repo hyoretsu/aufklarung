@@ -14,6 +14,7 @@ const Contact = lazy(() => import('../pages/Contact'));
 const Privacy = lazy(() => import('../pages/Privacy'));
 const Archives = lazy(() => import('../pages/Archives'));
 const Issue = lazy(() => import('../pages/Issue'));
+const Login = lazy(() => import('../pages/Login'));
 
 const Routes: React.FC = () => (
  <Suspense fallback={<Loading />}>
@@ -31,6 +32,8 @@ const Routes: React.FC = () => (
 
    <Route path="/issues" exact component={Archives} />
    <Route path="/issues/:id" exact component={Issue} />
+
+   <Route path="/login" exact component={Login} />
 
    <Route component={Error} />
   </Switch>
