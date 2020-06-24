@@ -72,6 +72,7 @@ export const Dropdown = styled.div`
  font-size: 1.4em;
 
  position: relative;
+ z-index: 1;
  color: #ff7f00;
 
  padding: 1.5vh 1.3vw 1vh;
