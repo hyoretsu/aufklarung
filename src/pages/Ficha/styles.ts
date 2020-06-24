@@ -14,7 +14,7 @@ export const Styling = styled.div`
   @media (max-width: 426px) {
    width: 170%;
    transform: rotate(90deg);
-   margin: 12vh 0 13vh;
+   margin: 10vh 0 13vh;
   }
  }
 `;
