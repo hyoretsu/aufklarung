@@ -13,10 +13,10 @@ const About: React.FC = () => {
     <section>
      <h4>Foco e Escopo</h4>
      <p>
-      Aufklärung, revista de filosofia (Qualis B1, DOI 10.18012/ARF), tem foco na publicação de artigos na área de
-      filosofia, ou que sejam relevantes para a pesquisa na mesma. Tem como objetivos: contribuir para a formação
-      acadêmica de profissionais de filosofia e áreas afins; contribuir para a efetivação de políticas na área de
-      filosofia, ao propiciar a divulgação de resultados originados a partir de pesquisas filosóficas voltadas para a
+      <strong>Aufklärung, revista de filosofia</strong> (Qualis B1, DOI 10.18012/ARF), tem foco na publicação de artigos
+      na área de filosofia, ou que sejam relevantes para a pesquisa na mesma. Tem como objetivos: contribuir para a
+      formação acadêmica de profissionais de filosofia e áreas afins; contribuir para a efetivação de políticas na área
+      de filosofia, ao propiciar a divulgação de resultados originados a partir de pesquisas filosóficas voltadas para a
       pós-graduação com base em princípios éticos tranparentes; e constituir-se como um espaço público para o debate
       entre pesquisadores do Brasil e do exterior.
      </p>
@@ -95,10 +95,10 @@ const About: React.FC = () => {
       publicação dentro de seus prazos normais de avaliação.
      </p>
      <p>
-      Nota: Os prazos para avaliação de artigos submetidos duram, em média, 6 semanas, dado que trabalhamos com inteira
-      mão de obra especializada de forma gratuita e de boa vontade dos contibuidores. Se autores ou intituições,
-      entretanto, desejam prazos menores para avaliação de artigos, taxas podem ser cobradas com o único e exclusivo fim
-      de tornar o processo avaliativo menor. Contate o editor para cotação.
+      <strong>Nota</strong>: Os prazos para avaliação de artigos submetidos duram, em média, 6 semanas, dado que
+      trabalhamos com inteira mão de obra especializada de forma gratuita e de boa vontade dos contibuidores. Se autores
+      ou intituições, entretanto, desejam prazos menores para avaliação de artigos, taxas podem ser cobradas com o único
+      e exclusivo fim de tornar o processo avaliativo menor. Contate o editor para cotação.
      </p>
     </section>
     <section>
@@ -141,14 +141,25 @@ const About: React.FC = () => {
      </p>
      <ol>
       <li>
-       houve colaboração com o autor na elaboração do trabalho submetido, ou em atividades de pesquisa (Ex.: Participam
-       do mesmo Grupo) que resultaram na elaboração do manuscrito;
+       <span>
+        houve colaboração com o autor na elaboração do trabalho submetido, ou em atividades de pesquisa (Ex.: Participam
+        do mesmo Grupo) que resultaram na elaboração do manuscrito;
+       </span>
       </li>
-      <li>trata-se de relação de afinidade do tipo orientador/orientado(a); </li>
-      <li>existe algum interesse na publicação para fins de promoção pessoal, institucional ou comercial; </li>
-      <li>existe alguma relação familiar ou afetiva com o autor/es do trabalho; </li>
       <li>
-       qualquer outra situação que possa caracterizar impedimento para a emissão de um parecer neutro para o manuscrito.
+       <span>trata-se de relação de afinidade do tipo orientador/orientado(a);</span>
+      </li>
+      <li>
+       <span>existe algum interesse na publicação para fins de promoção pessoal, institucional ou comercial;</span>
+      </li>
+      <li>
+       <span>existe alguma relação familiar ou afetiva com o autor/es do trabalho;</span>
+      </li>
+      <li>
+       <span>
+        qualquer outra situação que possa caracterizar impedimento para a emissão de um parecer neutro para o
+        manuscrito.
+       </span>
       </li>
      </ol>
     </section>
