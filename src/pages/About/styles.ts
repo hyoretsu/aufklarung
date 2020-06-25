@@ -33,10 +33,6 @@ export const Styling = styled.div`
    line-height: 1.5;
   }
 
-  ol,
-  ul {
-   list-style-position: inside;
-  }
   ol {
    margin-top: 1.5vh;
   }

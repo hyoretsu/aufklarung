@@ -48,4 +48,9 @@ export default createGlobalStyle`
  label{
   cursor: text
  }
+
+ ol,
+ ul {
+  list-style-position: inside;
+ }
 `;
