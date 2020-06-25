@@ -13,11 +13,11 @@ const App: React.FC = () => {
 
  return (
   <>
+   <Fonts />
+   <GlobalStyle />
    <Router history={history}>
     <Routes />
    </Router>
-   <GlobalStyle />
-   <Fonts />
   </>
  );
 };
