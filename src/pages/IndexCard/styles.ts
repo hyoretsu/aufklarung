@@ -7,7 +7,7 @@ export const Styling = styled.div`
  border-top: 1px solid #ddd;
  flex-direction: column;
 
- img {
+ svg {
   width: 70%;
   margin-bottom: 1vh;
 
