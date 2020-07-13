@@ -3,7 +3,7 @@ import React from 'react';
 import DefaultTemplate from '../../components/DefaultTemplate';
 import LocationInfo from '../../components/LocationInfo';
 
-import FichaCatalografica from '../../assets/ficha.svg';
+import { ReactComponent as FichaCatalografica } from '../../assets/ficha.svg';
 import FichaPng from '../../assets/ficha.png';
 
 import { Styling } from './styles';
@@ -13,7 +13,7 @@ const Ficha: React.FC = () => {
   <DefaultTemplate>
    <LocationInfo />
    <Styling>
-    <img src={FichaCatalografica} alt="Ficha Catalográfica" />
+    <FichaCatalografica />
     <a href={FichaPng} download>
      Deseja baixar uma cópia?
     </a>
