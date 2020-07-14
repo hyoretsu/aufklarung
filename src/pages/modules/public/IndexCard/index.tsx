@@ -1,7 +1,7 @@
 import React from 'react';
 
-import DefaultTemplate from '../../components/DefaultTemplate';
-import LocationInfo from '../../components/LocationInfo';
+import DefaultTemplate from 'components/DefaultTemplate';
+import LocationInfo from 'components/LocationInfo';
 
 import { ReactComponent as IndexCardSvg } from '../../assets/indexCard.svg';
 import IndexCardPng from '../../assets/indexCard.png';

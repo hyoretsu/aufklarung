@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
-import DefaultTemplate from '../../components/DefaultTemplate';
-import LocationInfo from '../../components/LocationInfo';
+import DefaultTemplate from 'components/DefaultTemplate';
+import LocationInfo from 'components/LocationInfo';
 
 import { Styling } from './styles';
 

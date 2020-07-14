@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
 
-import DefaultTemplate from '../../components/DefaultTemplate';
-import Section from '../../components/News';
-import Issue from '../../components/Issue';
+import DefaultTemplate from 'components/DefaultTemplate';
+import Section from 'components/News';
+import Issue from 'components/Issue';
 
 import { Styling, HomepageNews } from './styles';
 

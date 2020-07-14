@@ -1,7 +1,7 @@
 import React from 'react';
 
-import DefaultTemplate from '../../components/DefaultTemplate';
-import LocationInfo from '../../components/LocationInfo';
+import DefaultTemplate from 'components/DefaultTemplate';
+import LocationInfo from 'components/LocationInfo';
 
 import { Styling, Section, Contacts } from './styles';
 

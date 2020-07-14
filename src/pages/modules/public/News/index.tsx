@@ -1,7 +1,8 @@
 import React from 'react';
 import { FaCalendarAlt } from 'react-icons/fa';
 
-import DefaultTemplate from '../../components/DefaultTemplate';
+import DefaultTemplate from 'components/DefaultTemplate';
+
 import { Styling } from './styles';
 
 const News: React.FC = () => {
