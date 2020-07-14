@@ -12,6 +12,7 @@ const About = lazy(() => import('../pages/About'));
 const EditorialTeam = lazy(() => import('../pages/EditorialTeam'));
 const Ficha = lazy(() => import('../pages/Ficha'));
 const Contact = lazy(() => import('../pages/Contact'));
+const Submissions = lazy(() => import('../pages/Submissions'));
 const Privacy = lazy(() => import('../pages/Privacy'));
 const Archives = lazy(() => import('../pages/Archives'));
 const Issue = lazy(() => import('../pages/Issue'));
@@ -30,6 +31,7 @@ const Routes: React.FC = () => (
    <Route path="/editorial_team" component={EditorialTeam} />
    <Route path="/ficha" component={Ficha} />
    <Route path="/contact" component={Contact} />
+   <Route path="/submissions" component={Submissions} />
    <Route path="/privacy" component={Privacy} />
 
    <Route path="/issues" exact component={Archives} />
