@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import DefaultTemplate from '../../components/DefaultTemplate';
+import DefaultTemplate from 'components/DefaultTemplate';
 
 import { Styling, Section } from './styles';
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import DefaultTemplate from '../../components/DefaultTemplate';
-import LocationInfo from '../../components/LocationInfo';
-import Details from '../../components/Issue';
+import DefaultTemplate from 'components/DefaultTemplate';
+import LocationInfo from 'components/LocationInfo';
+import Details from 'components/Issue';
 
 const Issue: React.FC = () => {
  return (
