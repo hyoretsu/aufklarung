@@ -50,7 +50,8 @@
     "newlinesBetween": "always",
     "groups": ["module", ["/^components/", "parent"], "/^assets/", "sibling"],
     "alphabetize": {
-     "order": "asc"
+     "order": "asc",
+     "ignoreCase": false
     }
    }
   ],
