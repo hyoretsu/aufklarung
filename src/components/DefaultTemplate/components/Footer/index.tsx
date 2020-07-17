@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { Container } from './styles';
 import Icons from './components/FooterIcons';
+import { Container } from './styles';
 
 const Footer: React.FC = () => {
  return (

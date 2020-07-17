@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 import DefaultTemplate from 'components/DefaultTemplate';
 import LocationInfo from 'components/LocationInfo';

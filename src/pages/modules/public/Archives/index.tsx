@@ -5,14 +5,6 @@ import DefaultTemplate from 'components/DefaultTemplate';
 import LocationInfo from 'components/LocationInfo';
 
 import Cover1 from 'assets/tmp/cover-1.png';
-import Cover2 from 'assets/tmp/cover-2.png';
-import Cover3 from 'assets/tmp/cover-3.png';
-import Cover4 from 'assets/tmp/cover-4.png';
-import Cover5 from 'assets/tmp/cover-5.png';
-import Cover6 from 'assets/tmp/cover-6.png';
-import Cover7 from 'assets/tmp/cover-7.png';
-import Cover8 from 'assets/tmp/cover-8.png';
-import Cover9 from 'assets/tmp/cover-9.png';
 import Cover10 from 'assets/tmp/cover-10.png';
 import Cover11 from 'assets/tmp/cover-11.png';
 import Cover12 from 'assets/tmp/cover-12.png';
@@ -23,6 +15,14 @@ import Cover16 from 'assets/tmp/cover-16.png';
 import Cover17 from 'assets/tmp/cover-17.png';
 import Cover18 from 'assets/tmp/cover-18.png';
 import Cover19 from 'assets/tmp/cover-19.png';
+import Cover2 from 'assets/tmp/cover-2.png';
+import Cover3 from 'assets/tmp/cover-3.png';
+import Cover4 from 'assets/tmp/cover-4.png';
+import Cover5 from 'assets/tmp/cover-5.png';
+import Cover6 from 'assets/tmp/cover-6.png';
+import Cover7 from 'assets/tmp/cover-7.png';
+import Cover8 from 'assets/tmp/cover-8.png';
+import Cover9 from 'assets/tmp/cover-9.png';
 
 import { Section } from './styles';
 

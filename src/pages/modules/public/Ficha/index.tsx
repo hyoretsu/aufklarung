@@ -3,8 +3,8 @@ import React from 'react';
 import DefaultTemplate from 'components/DefaultTemplate';
 import LocationInfo from 'components/LocationInfo';
 
-import { ReactComponent as FichaCatalografica } from 'assets/ficha.svg';
 import FichaPng from 'assets/ficha.png';
+import { ReactComponent as FichaCatalografica } from 'assets/ficha.svg';
 
 import { Styling } from './styles';
 

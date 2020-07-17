@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { AiFillCaretDown } from 'react-icons/ai';
 import { FaSearch } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 import logoImg from 'assets/logo.png';
 
