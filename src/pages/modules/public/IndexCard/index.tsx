@@ -3,8 +3,8 @@ import React from 'react';
 import DefaultTemplate from 'components/DefaultTemplate';
 import LocationInfo from 'components/LocationInfo';
 
-import { ReactComponent as IndexCardSvg } from '../../assets/indexCard.svg';
-import IndexCardPng from '../../assets/indexCard.png';
+import IndexCardPng from 'assets/ficha.png';
+import { ReactComponent as IndexCardSvg } from 'assets/ficha.svg';
 
 import { Styling } from './styles';
 

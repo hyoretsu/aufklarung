@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import DefaultTemplate from 'components/DefaultTemplate';
-import LocationInfo from 'components/LocationInfo';
 import Details from 'components/Issue';
+import LocationInfo from 'components/LocationInfo';
 
 const Issue: React.FC = () => {
  return (

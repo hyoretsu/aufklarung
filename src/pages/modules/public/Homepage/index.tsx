@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 import DefaultTemplate from 'components/DefaultTemplate';
-import Section from 'components/News';
 import Issue from 'components/Issue';
+import Section from 'components/News';
 
 import { Styling, HomepageNews } from './styles';
 
