@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Icons from './FooterIcons';
 import { Container } from './styles';
 

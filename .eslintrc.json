@@ -5,7 +5,7 @@
   "jest": true
  },
  "extends": [
-  "airbnb",
+  "airbnb-base",
   "plugin:@typescript-eslint/recommended",
   "plugin:prettier/recommended",
   "plugin:react/recommended",
@@ -13,6 +13,7 @@
  ],
  "globals": {
   "Atomics": "readonly",
+  "React": "writable",
   "SharedArrayBuffer": "readonly"
  },
  "parser": "@typescript-eslint/parser",
@@ -24,6 +25,7 @@
   "sourceType": "module"
  },
  "plugins": ["@typescript-eslint", "eslint-plugin-import-helpers", "prettier", "react", "react-hooks"],
+ "root": true,
  "rules": {
   "@typescript-eslint/explicit-function-return-type": [
    "error",
@@ -33,6 +35,7 @@
   ],
   "@typescript-eslint/no-explicit-any": "off",
   "@typescript-eslint/no-unused-vars": ["error"],
+  "class-methods-use-this": "off",
   "jsx-a11y/label-has-associated-control": "off",
   "import/extensions": [
    "error",
@@ -48,7 +51,7 @@
    "warn",
    {
     "newlinesBetween": "always",
-    "groups": ["module", ["/^components/", "parent"], "/^assets/", "sibling"],
+    "groups": ["module", ["/^components/", "parent"], "/^@/", "sibling"],
     "alphabetize": {
      "order": "asc",
      "ignoreCase": false
@@ -70,9 +73,6 @@
  "settings": {
   "import/resolver": {
    "typescript": {}
-  },
-  "node": {
-   "extensions": [".js", ".jsx", ".ts", ".tsx"]
   }
  }
 }

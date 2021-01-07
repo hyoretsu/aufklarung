@@ -1,4 +1,4 @@
-import * as Images from 'assets/footer';
+import * as Images from '@assets/footer';
 
 const Icons = [
  {

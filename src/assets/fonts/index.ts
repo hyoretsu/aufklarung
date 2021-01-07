@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
 
+import ISegoeUI from './SegoeUI-Italic400.woff2';
 import SegoeUI from './SegoeUI400.woff2';
 import SegoeUISemibold from './SegoeUI600.woff2';
 import SegoeUIBold from './SegoeUI700.woff2';
-import ISegoeUI from './SegoeUI-Italic400.woff2';
 
 export default createGlobalStyle`
  @font-face {

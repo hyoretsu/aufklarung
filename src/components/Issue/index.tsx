@@ -1,21 +1,38 @@
-import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { FaRegFilePdf } from 'react-icons/fa';
-import { Link, useLocation } from 'react-router-dom';
 
-import Cover from '../../assets/tmp/cover-19.png';
+import DownloadedCover from '@assets/tmp/cover-19.80b0e3ab.png';
+import OriginalCover from '@assets/tmp/cover-19.png';
+import RenamedOriginalCover from '@assets/tmp/cover-20.png';
+import RenamedDownloadedCover from '@assets/tmp/cover-21.png';
+import ReformattedCover from '@assets/tmp/scover-19.jpg';
 
 import { Container, Introduction, Section } from './styles';
 
+const CoverFromSite = 'https://periodicos.ufpb.br/public/journals/83/cover_issue_2445_pt_BR.jpg';
+const CoverFromPreviousNonNextCommitSameFileAsOriginalCover =
+ 'https://aufklarung-dev.herokuapp.com/static/media/cover-19.80b0e3ab.png';
+
 const Issue: React.FC = () => {
- const { pathname } = useLocation();
+ const { pathname } = useRouter();
 
  return (
   <Container>
    {pathname === '/' && <span>v. 7 n. Especial (2020): Dossiê Sartre</span>}
    <Introduction>
-    <Link to="/issues/19">
-     <img src={Cover} alt="Capa da edição" />
+    <Link href="/issues/19">
+     <a>
+      <Image src={DownloadedCover} alt="Capa da edição" width={455} height={614} />
+     </a>
     </Link>
+    <Image src={ReformattedCover} alt="Capa da edição" width={455} height={614} />
+    <Image src={OriginalCover} alt="Capa da edição" width={455} height={614} />
+    <Image src={RenamedOriginalCover} alt="Capa da edição" width={455} height={614} />
+    <Image src={RenamedDownloadedCover} alt="Capa da edição" width={455} height={614} />
+    <Image src={CoverFromSite} alt="Capa da edição" width={455} height={614} />
+    <Image src={CoverFromPreviousNonNextCommitSameFileAsOriginalCover} alt="Capa da edição" width={455} height={614} />
     <span>Dossiê Sartre</span>
     <span>
      <strong>Publicado: </strong>
@@ -25,7 +42,7 @@ const Issue: React.FC = () => {
    <strong>Editorial</strong>
    <Section>
     <p>
-     <Link to="/issues/19/articles/1">Apresentação</Link>
+     <Link href="/issues/19/articles/1">Apresentação</Link>
     </p>
     <div>
      <p>Claudinei Aparecido de Freitas da Silva</p>
@@ -40,7 +57,7 @@ const Issue: React.FC = () => {
    <strong>Artigos</strong>
    <Section>
     <p>
-     <Link to="/issues/19/articles/2">Revolução estética - a livre invenção de espaços de liberdade</Link>
+     <Link href="/issues/19/articles/2">Revolução estética - a livre invenção de espaços de liberdade</Link>
     </p>
     <div>
      <p>Luciano Donizetti da Silva</p>
@@ -53,7 +70,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/3">Filosofia e literatura: em torno de A Náusea</Link>
+     <Link href="/issues/19/articles/3">Filosofia e literatura: em torno de A Náusea</Link>
     </p>
     <div>
      <p>Luiza Helena Hilgert</p>
@@ -66,7 +83,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/4">Les Mouches: liberdade situada e reflexividades em Jean-Paul Sartre</Link>
+     <Link href="/issues/19/articles/4">Les Mouches: liberdade situada e reflexividades em Jean-Paul Sartre</Link>
     </p>
     <div>
      <p>Marivania Cristina Bocca, Tiago Soares dos Santos</p>
@@ -79,7 +96,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/5">
+     <Link href="/issues/19/articles/5">
       A experiência do non-sens em Roquentin: A Náusea sob as lentes da psicanálise
      </Link>
     </p>
@@ -94,7 +111,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/6">O caráter nadificador da consciência imaginante</Link>
+     <Link href="/issues/19/articles/6">O caráter nadificador da consciência imaginante</Link>
     </p>
     <div>
      <p>Lucas Rodrigues da Fonseca Lopes</p>
@@ -107,7 +124,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/7">A Fenomenologia de Heidegger e Sartre em suas diferenças</Link>
+     <Link href="/issues/19/articles/7">A Fenomenologia de Heidegger e Sartre em suas diferenças</Link>
     </p>
     <div>
      <p>Daniela Ribeiro Schneider</p>
@@ -120,7 +137,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/8">
+     <Link href="/issues/19/articles/8">
       Literatura e Humanismo: Fenômenos éticos no confronto entre Sartre e Dostoiévski
      </Link>
     </p>
@@ -135,7 +152,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/9">O fenômeno da angústia: interfaces entre Graciliano Ramos e Sartre</Link>
+     <Link href="/issues/19/articles/9">O fenômeno da angústia: interfaces entre Graciliano Ramos e Sartre</Link>
     </p>
     <div>
      <p>Camila Pacheco Gomes</p>
@@ -148,7 +165,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/10">
+     <Link href="/issues/19/articles/10">
       A estética do movimento: uma leitura sartriana da psicoterapia a partir da arte de Alberto Giacometti
      </Link>
     </p>
@@ -163,7 +180,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/11">
+     <Link href="/issues/19/articles/11">
       El existencialismo de Sartre, origenes y contextos: una lectura a partir de Hannah Arendt
      </Link>
     </p>
@@ -178,7 +195,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/12">Aportes clínicos sartrianos III: método progressivo-regressivo</Link>
+     <Link href="/issues/19/articles/12">Aportes clínicos sartrianos III: método progressivo-regressivo</Link>
     </p>
     <div>
      <p>Claudinei Aparecido de Freitas da Silva</p>
@@ -191,7 +208,7 @@ const Issue: React.FC = () => {
    </Section>
    <Section>
     <p>
-     <Link to="/issues/19/articles/13">O tempo em Heidegger e Thomas Mann</Link>
+     <Link href="/issues/19/articles/13">O tempo em Heidegger e Thomas Mann</Link>
     </p>
     <div>
      <p>Libanio Cardoso</p>

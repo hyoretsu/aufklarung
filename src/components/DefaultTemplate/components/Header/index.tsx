@@ -1,9 +1,9 @@
-import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 import { AiFillCaretDown } from 'react-icons/ai';
 import { FaSearch } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 
-import logoImg from 'assets/logo.png';
+import logoImg from '@assets/logo.png';
 
 import { Container, UserNav, Navigation, Dropdown, Search } from './styles';
 
@@ -11,41 +11,43 @@ const Header: React.FC = () => {
  return (
   <Container>
    <UserNav>
-    <Link to="/login">Acesso</Link>
+    <Link href="/login">Acesso</Link>
    </UserNav>
-   <Link to="/">
-    <img src={logoImg} alt="Aufklärung - Revista de Filosofia" />
+   <Link href="/">
+    <a>
+     <Image src={logoImg} alt="Aufklärung - Revista de Filosofia" width={500} height={145} />
+    </a>
    </Link>
    <Navigation>
-    <Link to="/">Início</Link>
-    <Link to="/current">Atual</Link>
-    <Link to="/issues">Arquivos</Link>
-    <Link to="/news">Notícias</Link>
+    <Link href="/">Início</Link>
+    <Link href="/current">Atual</Link>
+    <Link href="/issues">Arquivos</Link>
+    <Link href="/news">Notícias</Link>
     <Dropdown>
      Sobre
      <AiFillCaretDown />
      <ul>
       <li>
-       <Link to="/about">Sobre a revista</Link>
+       <Link href="/about">Sobre a revista</Link>
       </li>
       <li>
-       <Link to="/editorial_team">Equipe Editorial</Link>
+       <Link href="/editorial_team">Equipe Editorial</Link>
       </li>
       <li>
-       <Link to="/ficha">Ficha Catalográfica</Link>
+       <Link href="/ficha">Ficha Catalográfica</Link>
       </li>
       <li>
-       <Link to="/contact">Contato</Link>
+       <Link href="/contact">Contato</Link>
       </li>
       <li>
-       <Link to="/submissions">Submissões</Link>
+       <Link href="/submissions">Submissões</Link>
       </li>
       <li>
-       <Link to="/privacy">Declaração de Privacidade</Link>
+       <Link href="/privacy">Declaração de Privacidade</Link>
       </li>
      </ul>
     </Dropdown>
-    <Link to="/info">Informações</Link>
+    <Link href="/info">Informações</Link>
     <Search>
      <FaSearch />
      Buscar

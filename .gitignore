@@ -4,12 +4,8 @@
 /build
 /coverage
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-/.pnp
-.pnp.js
+/.next/
+/out/
 /temp
 tmp/*
 !tmp/.gitkeep
