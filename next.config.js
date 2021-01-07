@@ -2,7 +2,7 @@
 
 module.exports = {
  images: {
-  domains: ['aufklarung-dev.herokuapp.com', 'periodicos.ufpb.br'],
+  domains: ['aufklarung-dev.herokuapp.com', 'github.com', 'periodicos.ufpb.br'],
  },
  typescript: {
   ignoreBuildErrors: true,
