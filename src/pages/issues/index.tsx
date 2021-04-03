@@ -22,8 +22,7 @@ import Cover6 from '@assets/tmp/cover-6.png';
 import Cover7 from '@assets/tmp/cover-7.png';
 import Cover8 from '@assets/tmp/cover-8.png';
 import Cover9 from '@assets/tmp/cover-9.png';
-
-import { Section } from './styles';
+import { Section } from '@styles/pages/issues';
 
 const Archives: React.FC = () => {
  return (

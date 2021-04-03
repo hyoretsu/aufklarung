@@ -14,7 +14,8 @@
   "noEmit": true,
   "noImplicitAny": true,
   "paths": {
-   "@assets/*": ["assets/*"]
+   "@assets/*": ["assets/*"],
+   "@styles/*": ["styles/*"]
   },
   "pretty": true,
   "removeComments": true,

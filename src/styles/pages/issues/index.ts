@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { transparentize } from 'polished';
 import styled from 'styled-components';
 
@@ -13,7 +12,7 @@ export const Section = styled.section`
   padding: 2vh 4vw;
  }
 
- (Link) {
+ a {
   img {
    max-height: 15vw;
 

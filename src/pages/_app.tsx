@@ -1,14 +1,15 @@
 import { AppProps } from 'next/app';
 import Head from 'next/head';
-
-import DefaultTemplate from 'components/DefaultTemplate';
+import GlobalStyle from 'styles/global';
 
 import '../assets/fonts';
-import '../styles/global.css';
+
+import DefaultTemplate from 'components/DefaultTemplate';
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
  return (
   <>
+   <GlobalStyle />
    <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 

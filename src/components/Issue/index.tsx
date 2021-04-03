@@ -3,17 +3,9 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { FaRegFilePdf } from 'react-icons/fa';
 
-import DownloadedCover from '@assets/tmp/cover-19.80b0e3ab.png';
 import OriginalCover from '@assets/tmp/cover-19.png';
-import RenamedOriginalCover from '@assets/tmp/cover-20.png';
-import RenamedDownloadedCover from '@assets/tmp/cover-21.png';
-import ReformattedCover from '@assets/tmp/scover-19.jpg';
 
 import { Container, Introduction, Section } from './styles';
-
-const CoverFromSite = 'https://periodicos.ufpb.br/public/journals/83/cover_issue_2445_pt_BR.jpg';
-const CoverFromPreviousNonNextCommitSameFileAsOriginalCover =
- 'https://aufklarung-dev.herokuapp.com/static/media/cover-19.80b0e3ab.png';
 
 const Issue: React.FC = () => {
  const { pathname } = useRouter();
@@ -24,15 +16,9 @@ const Issue: React.FC = () => {
    <Introduction>
     <Link href="/issues/19">
      <a>
-      <Image src={DownloadedCover} alt="Capa da edição" width={455} height={614} />
+      <Image src={OriginalCover} alt="Capa da edição" width={455} height={614} />
      </a>
     </Link>
-    <Image src={ReformattedCover} alt="Capa da edição" width={455} height={614} />
-    <Image src={OriginalCover} alt="Capa da edição" width={455} height={614} />
-    <Image src={RenamedOriginalCover} alt="Capa da edição" width={455} height={614} />
-    <Image src={RenamedDownloadedCover} alt="Capa da edição" width={455} height={614} />
-    <Image src={CoverFromSite} alt="Capa da edição" width={455} height={614} />
-    <Image src={CoverFromPreviousNonNextCommitSameFileAsOriginalCover} alt="Capa da edição" width={455} height={614} />
     <span>Dossiê Sartre</span>
     <span>
      <strong>Publicado: </strong>

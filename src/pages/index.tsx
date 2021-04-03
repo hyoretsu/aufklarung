@@ -4,7 +4,7 @@ import { FaCalendarAlt, FaChevronRight } from 'react-icons/fa';
 import Issue from 'components/Issue';
 import Section from 'components/News';
 
-import { Styling, HomepageNews } from './styles';
+import { Styling, HomepageNews } from '@styles/pages';
 
 const Homepage: React.FC = () => {
  return (
