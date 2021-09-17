@@ -399,13 +399,6 @@ const Submission: React.FC = () => {
       Política de Boas Práticas da Revista.
      </p>
     </Section>
-    <Section>
-     <h2>Política de Privacidade</h2>
-     <p>
-      Todos os dados, além de nomes e endereços informados nesta revista serão usados exclusivamente para os serviços
-      por ela prestados, ficando indisponíveis para qualquer fim por terceiros.
-     </p>
-    </Section>
    </Styling>
   </>
  );
