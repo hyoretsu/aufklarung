@@ -8,16 +8,21 @@ import LocationInfo from '@components/LocationInfo';
 
 import { Styling } from '@styles/login';
 
+interface LoginData {
+ email: string;
+ password: string;
+}
+
 const title = 'Acesso';
 
 const Login: React.FC = () => {
- const handleSubmit = (values: Record<string, string>): void => {
+ const handleSubmit = (values: LoginData): void => {
   alert(values);
  };
 
  const formValidation = Yup.object().shape({
-  email: Yup.string().email('Por favor, insira um e-mail válido').required('Por favor, insira um e-mail'),
-  password: Yup.string().required('Por favor, insira sua senha'),
+  email: Yup.string().email('O e-mail inserido é inválido, tente novamente.').required('Por favor, insira um e-mail.'),
+  password: Yup.string().required('Por favor, insira sua senha.'),
  });
 
  return (
@@ -26,18 +31,18 @@ const Login: React.FC = () => {
    <LocationInfo />
    <Styling>
     <h1>Acesso</h1>
-    <Formik initialValues={{ email: '', password: '' }} validationSchema={formValidation} onSubmit={handleSubmit}>
-     <Form noValidate>
-      <div>
+    <Formik initialValues={{ email: '', password: '' }} onSubmit={handleSubmit} validationSchema={formValidation}>
+     <Form>
+      <fieldset>
        <label htmlFor="email">E-mail</label>
-       <Field name="email" type="email" placeholder="exemplo@gmail.com" />
+       <Field id="email" name="email" type="email" placeholder="exemplo@gmail.com" />
        <ErrorMessage name="email" component="p" />
-      </div>
-      <div>
+      </fieldset>
+      <fieldset>
        <label htmlFor="password">Senha</label>
-       <Field name="password" type="password" />
+       <Field id="password" name="password" type="password" />
        <ErrorMessage name="password" component="p" />
-      </div>
+      </fieldset>
       <Link href="/forgot_password">Esqueceu a senha?</Link>
       <Button type="submit">Acesso</Button>
      </Form>

@@ -21,7 +21,7 @@ export const Styling = styled.div`
   align-items: center;
   width: 25%;
 
-  div {
+  fieldset {
    display: flex;
    flex-direction: column;
    position: relative;
@@ -38,13 +38,7 @@ export const Styling = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 5px;
     font-size: 0.94rem;
-    line-height: calc(2.143rem - 2px);
-
-    &:hover {
-     & p {
-      display: block;
-     }
-    }
+    height: 2.3vw;
    }
 
    p {
