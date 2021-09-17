@@ -1,6 +1,8 @@
 import { styled } from '@linaria/react';
 
 export const Container = styled.header`
+ display: flex;
+ flex-direction: column;
  background-color: #ddd8;
  font-variant: small-caps;
  font-weight: 500;
@@ -8,10 +10,10 @@ export const Container = styled.header`
  width: auto;
 
  > a {
+  align-self: center;
+  margin: 1vh 0;
+
   img {
-   display: block;
-   margin: 0 auto;
-   padding: 1.5vh 0 1vh;
    max-width: 100%;
   }
  }
