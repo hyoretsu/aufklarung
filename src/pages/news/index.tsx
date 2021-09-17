@@ -12,7 +12,7 @@ export const NewsArchive: React.FC = () => {
  return (
   <>
    <NextSeo description={description} openGraph={{ description, title }} title={title} />
-   <LocationInfo />
+   <LocationInfo>{title}</LocationInfo>
    <Section>
     <h3>
      <Link href="/news/24">Journal Aufklärung is now supported by CAPES/CNPq</Link>

@@ -14,7 +14,7 @@ const IndexCard: React.FC = () => {
  return (
   <>
    <NextSeo description={description} openGraph={{ description, title }} title={title} />
-   <LocationInfo />
+   <LocationInfo>{title}</LocationInfo>
    <Styling>
     <IndexCardSvg />
     <Link href="/images/indexCard.png">Deseja baixar uma cópia?</Link>

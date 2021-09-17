@@ -12,7 +12,7 @@ const Contact: React.FC = () => {
  return (
   <>
    <NextSeo description={description} openGraph={{ description, title }} title={title} />
-   <LocationInfo />
+   <LocationInfo>{title}</LocationInfo>
    <Styling>
     <Section>
      <strong>Revista Aufklärung</strong>

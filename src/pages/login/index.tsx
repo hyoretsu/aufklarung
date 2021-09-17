@@ -28,7 +28,7 @@ const Login: React.FC = () => {
  return (
   <>
    <NextSeo title={title} noindex nofollow />
-   <LocationInfo />
+   <LocationInfo>{title}</LocationInfo>
    <Styling>
     <h1>Acesso</h1>
     <Formik initialValues={{ email: '', password: '' }} onSubmit={handleSubmit} validationSchema={formValidation}>

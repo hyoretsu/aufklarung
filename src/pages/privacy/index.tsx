@@ -12,7 +12,7 @@ const Privacy: React.FC = () => {
  return (
   <>
    <NextSeo description={description} openGraph={{ description, title }} title={title} />
-   <LocationInfo />
+   <LocationInfo>{title}</LocationInfo>
    <Styling>
     <p>{description}</p>
    </Styling>

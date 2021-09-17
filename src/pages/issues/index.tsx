@@ -12,7 +12,7 @@ const Archives: React.FC = () => {
  return (
   <>
    <NextSeo description={description} openGraph={{ description, title }} title={title} />
-   <LocationInfo />
+   <LocationInfo>Arquivos</LocationInfo>
    <Section>
     <Link href="/issues/19">
      <img src="/images/tmp/cover-19.png" alt="Capa da edição" />

@@ -9,11 +9,6 @@ export const Container = styled.div`
  }
 
  span:last-of-type {
-  cursor: text;
-
-  a {
-   pointer-events: none;
-   color: #f70;
-  }
+  color: #f70;
  }
 `;
