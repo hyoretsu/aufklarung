@@ -12,6 +12,7 @@
  },
  "plugins": ["prettier"],
  "rules": {
+  "camelcase":"off",
   "jsx-a11y/label-has-associated-control": "off",
   "import/no-duplicates": "off",
   "no-param-reassign": [
