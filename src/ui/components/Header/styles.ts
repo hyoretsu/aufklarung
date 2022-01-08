@@ -80,20 +80,14 @@ export const Dropdown = styled.div`
   box-shadow: 0 0 8px #0004;
 
   li {
+   color: #f70;
    padding: 0.6vh 0.3vw;
 
-   a {
-    color: #f70;
-   }
-
    &:hover {
+    color: #479;
     background: #ddd;
     padding-left: 0.1vw;
     border-left: 3px solid #479;
-
-    a {
-     color: #479;
-    }
    }
 
    &:first-child {

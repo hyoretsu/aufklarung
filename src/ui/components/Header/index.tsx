@@ -23,24 +23,24 @@ const Header: React.FC = () => {
      <span>Sobre</span>
      <AiFillCaretDown />
      <ul>
-      <li>
-       <Link href="/about">Sobre a revista</Link>
-      </li>
-      <li>
-       <Link href="/editorial_team">Equipe Editorial</Link>
-      </li>
-      <li>
-       <Link href="/index_card">Ficha Catalográfica</Link>
-      </li>
-      <li>
-       <Link href="/contact">Contato</Link>
-      </li>
-      <li>
-       <Link href="/submissions">Submissões</Link>
-      </li>
-      <li>
-       <Link href="/privacy">Declaração de Privacidade</Link>
-      </li>
+      <Link href="/about">
+       <li>Sobre a revista</li>
+      </Link>
+      <Link href="/editorial_team">
+       <li>Equipe Editorial</li>
+      </Link>
+      <Link href="/index_card">
+       <li>Ficha Catalográfica</li>
+      </Link>
+      <Link href="/contact">
+       <li>Contato</li>
+      </Link>
+      <Link href="/submissions">
+       <li>Submissões</li>
+      </Link>
+      <Link href="/privacy">
+       <li>Declaração de Privacidade</li>
+      </Link>
      </ul>
     </Dropdown>
     <Link href="/info">Informações</Link>
