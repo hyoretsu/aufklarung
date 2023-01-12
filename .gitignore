@@ -1,8 +1,5 @@
 /.vscode/
 !/.vscode/launch.json
-/next-sitemap.js
-/next.config.js
-/server.js
 /tmp/
 !/tmp/.gitkeep
 *.log

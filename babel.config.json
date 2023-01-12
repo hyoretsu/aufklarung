@@ -1,4 +1,0 @@
-{
- "ignore": ["src/__tests__/*", "src/data/@types/*"],
- "presets": ["next/babel", "@linaria"]
-}

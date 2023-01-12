@@ -1,7 +1,7 @@
 {
- "cleanUrls": true,
- "github": {
-  "silent": true
- },
- "trailingSlash": false
+    "cleanUrls": true,
+    "github": {
+        "silent": true
+    },
+    "trailingSlash": false
 }

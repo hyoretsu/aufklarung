@@ -1,57 +1,48 @@
 * {
- margin: 0;
- padding: 0;
- outline: 0;
- box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 
 body {
- background-color: #eee8;
- font-family: 'Archivo';
- -webkit-font-smoothing: antialiased;
-}
-
-#__next {
- box-shadow: 0 0 10px #0007;
-}
-@media (min-width: 427px) {
- #__next {
-  margin: 2% 7%;
- }
+    background-color: #eee8;
+    font-family: 'Archivo';
+    -webkit-font-smoothing: antialiased;
 }
 
 p {
- hyphens: auto;
+    hyphens: auto;
 }
 p,
 ol {
- line-height: 1.3em;
+    line-height: 1.3em;
 }
 
 a {
- color: #6ac;
- text-decoration: none;
+    color: #6ac;
+    text-decoration: none;
 }
 a:hover {
- color: #f70;
+    color: #f70;
 }
 
 button,
 img {
- cursor: pointer;
- background: transparent;
- border: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
 }
 
 fieldset {
- border: none;
+    border: none;
 }
 
 label {
- cursor: text;
+    cursor: text;
 }
 
 ol,
 ul {
- list-style-position: inside;
+    list-style-position: inside;
 }

@@ -1,14 +1,14 @@
 @font-face {
- font-family: 'Archivo';
- font-style: normal;
- font-weight: 100 900;
- font-stretch: 62% 125%;
- src: local('Archivo'), url('/fonts/Archivo.woff2') format('woff2');
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 62% 125%;
+    src: local('Archivo'), url('/fonts/Archivo.woff2') format('woff2');
 }
 @font-face {
- font-family: 'Archivo';
- font-style: italic;
- font-weight: 100 900;
- font-stretch: 62% 125%;
- src: local('Archivo Italic'), url('/fonts/Archivo-Italic.woff2') format('woff2');
+    font-family: 'Archivo';
+    font-style: italic;
+    font-weight: 100 900;
+    font-stretch: 62% 125%;
+    src: local('Archivo Italic'), url('/fonts/Archivo-Italic.woff2') format('woff2');
 }

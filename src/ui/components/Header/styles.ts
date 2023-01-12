@@ -1,135 +1,135 @@
-import { styled } from '@linaria/react';
+import styled from 'styled-components';
 
 export const Container = styled.header`
- display: flex;
- flex-direction: column;
- background-color: #ddd8;
- font-variant: small-caps;
- font-weight: 500;
- font-stretch: 110%;
- width: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #ddd8;
+    font-variant: small-caps;
+    font-weight: 500;
+    font-stretch: 110%;
+    width: auto;
 
- > a {
-  align-self: center;
-  margin: 1vh 0;
+    > a {
+        align-self: center;
+        margin: 1vh 0;
 
-  img {
-   max-width: 100%;
-  }
- }
+        img {
+            max-width: 100%;
+        }
+    }
 `;
 
 export const UserNav = styled.div`
- display: flex;
- justify-content: flex-end;
- border-bottom: 1px solid #f70;
- padding: 0.3vw 2vw;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #f70;
+    padding: 0.3vw 2vw;
 
- a {
-  color: #f70;
-  font-weight: 700;
+    a {
+        color: #f70;
+        font-weight: 700;
 
-  &:hover {
-   color: #479;
-  }
- }
+        &:hover {
+            color: #479;
+        }
+    }
 `;
 
 export const Navigation = styled.nav`
- display: flex;
- flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 
- @media (max-width: 426px) {
-  justify-content: center;
- }
+    @media (max-width: 426px) {
+        justify-content: center;
+    }
 
- > a,
- div {
-  color: #f70;
-  font-size: 1.4em;
-  padding: 1.5vh 1vw;
+    > a,
+    div {
+        color: #f70;
+        font-size: 1.4em;
+        padding: 1.5vh 1vw;
 
-  &:hover {
-   color: #479;
-   padding-bottom: calc(1.5vh - 3px);
-   border-bottom: 3px solid #479;
-  }
- }
+        &:hover {
+            color: #479;
+            padding-bottom: calc(1.5vh - 3px);
+            border-bottom: 3px solid #479;
+        }
+    }
 `;
 
 export const Dropdown = styled.div`
- cursor: pointer;
- position: relative;
+    cursor: pointer;
+    position: relative;
 
- svg {
-  height: 60%;
-  transform: translate(0, 12%);
- }
+    svg {
+        height: 60%;
+        transform: translate(0, 12%);
+    }
 
- ul {
-  display: none;
-  background-color: #fff;
-  width: 190%;
-  list-style: none;
-  border-radius: 8px;
+    ul {
+        display: none;
+        background-color: #fff;
+        width: 190%;
+        list-style: none;
+        border-radius: 8px;
 
-  position: absolute;
-  left: 0;
-  z-index: 1;
-  margin-top: 1vh;
-  box-shadow: 0 0 8px #0004;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-top: 1vh;
+        box-shadow: 0 0 8px #0004;
 
-  li {
-   color: #f70;
-   padding: 0.6vh 0.3vw;
+        li {
+            color: #f70;
+            padding: 0.6vh 0.3vw;
 
-   &:hover {
-    color: #479;
-    background: #ddd;
-    padding-left: 0.1vw;
-    border-left: 3px solid #479;
-   }
+            &:hover {
+                color: #479;
+                background: #ddd;
+                padding-left: 0.1vw;
+                border-left: 3px solid #479;
+            }
 
-   &:first-child {
-    border-top-left-radius: 6px;
-   }
-   &:last-child {
-    border-bottom-left-radius: 6px;
-   }
-  }
- }
+            &:first-child {
+                border-top-left-radius: 6px;
+            }
+            &:last-child {
+                border-bottom-left-radius: 6px;
+            }
+        }
+    }
 
- &:hover {
-  color: #479;
+    &:hover {
+        color: #479;
 
-  ul {
-   display: block;
-  }
- }
+        ul {
+            display: block;
+        }
+    }
 `;
 
 export const Search = styled.button`
- display: flex;
- align-items: center;
- justify-content: center;
- font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
 
- color: #f70;
- margin-left: auto;
- padding: 2vh 1vw 1vh;
+    color: #f70;
+    margin-left: auto;
+    padding: 2vh 1vw 1vh;
 
- @media (max-width: 426px) {
-  flex-basis: 100%;
-  padding: 1vh 0;
- }
+    @media (max-width: 426px) {
+        flex-basis: 100%;
+        padding: 1vh 0;
+    }
 
- svg {
-  margin-right: 0.5vw;
- }
+    svg {
+        margin-right: 0.5vw;
+    }
 
- &:hover {
-  color: #479;
-  padding-bottom: calc(1vh - 2px);
-  border-bottom: 2px solid #479;
- }
+    &:hover {
+        color: #479;
+        padding-bottom: calc(1vh - 2px);
+        border-bottom: 2px solid #479;
+    }
 `;
